@@ -1,4 +1,4 @@
-﻿*.iso
+*.iso
 *.ova
 *.vmdk
 *.vdi
@@ -11,3 +11,7 @@
 ~$*
 Thumbs.db
 desktop.ini
+.DS_Store
+__MACOSX/
+**/.idea/workspace.xml
+**/target/
