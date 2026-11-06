@@ -1,0 +1,182 @@
+// =====================================================================
+//  CORRECTION — Travail préparatoire
+//  Constituer la base de la plateforme (11 fiches étudiants)
+// =====================================================================
+//
+//  Exécution :
+//    - depuis le terminal :  mongosh "<chaîne de connexion>" correction_travail_preparatoire.js
+//    - depuis mongosh     :  load("correction_travail_preparatoire.js")
+//    - depuis docker      :copier le fichier dans le conteneur, puis l’exécuter
+//                  (commande 1 à executé):docker cp correction_travail_preparatoire.js mongodb2:/tmp/correction_travail_preparatoire.js
+//                  (commande 1 à execité):docker exec -it mongodb2 mongosh universite /tmp/correction_travail_preparatoire.js
+//
+//	  -pour afficher le contenu du fichier copié sur docker:
+//                  docker exec mongodb2 cat /tmp/correction_travail_preparatoire.js
+//
+//
+//  Remarque : dans un fichier script, "use scolarite" ne fonctionne pas.
+//  On utilise db.getSiblingDB() pour sélectionner la base.
+// =====================================================================
+
+// Choisir la base dans le script
+db = db.getSiblingDB("scolarite");
+
+// Pour pouvoir relancer le script sans créer de doublons
+db.etudiants.drop();
+
+
+// ---------------------------------------------------------------------
+//  Consigne 4 — Sara : insertOne()
+//  Consigne 1 — adresse : { ville, codePostal } imbriqué
+//  Consigne 2 — competences : tableau ; age et moyenne : nombres
+// ---------------------------------------------------------------------
+
+db.etudiants.insertOne({
+  nom: "Sara Alaoui",
+  age: 21,
+  filiere: "Informatique",
+  moyenne: 15.7,
+  adresse: { ville: "Casablanca", codePostal: "20000" },
+  competences: ["Java", "Python", "MongoDB"],
+  telephone: "0612345678"
+});
+
+
+// ---------------------------------------------------------------------
+//  Consigne 4 — Les 10 autres étudiants : insertMany()
+//  Consigne 3 — téléphone « — » : on n'écrit PAS le champ téléphone pour(Amine, Omar, Nora)
+//  Cas particuliers :
+//    - Yassine : alternance => document imbriqué
+//    - Amine   : stage => document imbriqué, dates en type Date
+// ---------------------------------------------------------------------
+
+db.etudiants.insertMany([
+  {
+    nom: "Yassine El Amrani",
+    age: 22,
+    filiere: "Informatique",
+    moyenne: 13.2,
+    adresse: { ville: "Rabat", codePostal: "10000" },
+    competences: ["Java", "SQL"],
+    telephone: "0623456789",
+    alternance: {
+      entreprise: "OCP Digital",
+      rythme: "3j/2j"
+    }
+  },
+  {
+    nom: "Amine Tazi",
+    age: 23,
+    filiere: "Informatique",
+    moyenne: 16.8,
+    adresse: { ville: "Casablanca", codePostal: "20250" },
+    competences: ["Python", "MongoDB", "Docker"],
+    // pas de champ telephone
+    stage: {
+      encadrant: "M. Berrada",
+      dateDebut: new Date("2026-02-01"),
+      dateFin: new Date("2026-05-31")
+    }
+  },
+  {
+    nom: "Imane Chraibi",
+    age: 20,
+    filiere: "Informatique",
+    moyenne: 14.1,
+    adresse: { ville: "Témara", codePostal: "12000" },
+    competences: ["HTML", "CSS", "JavaScript"],
+    telephone: "0634567890"
+  },
+  {
+    nom: "Salma Bennis",
+    age: 19,
+    filiere: "Data Science",
+    moyenne: 17.4,
+    adresse: { ville: "Casablanca", codePostal: "20100" },
+    competences: ["Python", "MongoDB", "Machine Learning"],
+    telephone: "0645678901"
+  },
+  {
+    nom: "Omar Fassi",
+    age: 24,
+    filiere: "Data Science",
+    moyenne: 12.5,
+    adresse: { ville: "Fès", codePostal: "30000" },
+    competences: ["Python", "SQL"]
+    // pas de champ telephone
+  },
+  {
+    nom: "Khadija Idrissi",
+    age: 20,
+    filiere: "Réseaux",
+    moyenne: 16.2,
+    adresse: { ville: "Rabat", codePostal: "10020" },
+    competences: ["Linux", "Cisco"],
+    telephone: "0656789012"
+  },
+  {
+    nom: "Mehdi Lahlou",
+    age: 21,
+    filiere: "Génie Logiciel",
+    moyenne: 11.9,
+    adresse: { ville: "Marrakech", codePostal: "40000" },
+    competences: ["Java", "Spring", "MongoDB"],
+    telephone: "0667890123"
+  },
+  {
+    nom: "Nora Ziani",
+    age: 22,
+    filiere: "Réseaux",
+    moyenne: 14.8,
+    adresse: { ville: "Casablanca", codePostal: "20070" },
+    competences: ["Linux", "Python"]
+    // pas de champ telephone
+  },
+  {
+    nom: "Samir Ouazzani",
+    age: 25,
+    filiere: "Informatique",
+    moyenne: 15.3,
+    adresse: { ville: "Casablanca", codePostal: "20340" },
+    competences: ["JavaScript", "Node.js", "MongoDB"],
+    telephone: "0678901234"
+  },
+  {
+    nom: "Hamza Benjelloun",
+    age: 22,
+    filiere: "Informatique",
+    moyenne: 12.4,
+    adresse: { ville: "Casablanca", codePostal: "20200" },
+    competences: ["C", "Java"],
+    telephone: "0689012345"
+  }
+]);
+
+
+// ---------------------------------------------------------------------
+//  Vérification : countDocuments() => 11
+// ---------------------------------------------------------------------
+
+print("Nombre d'étudiants : " + db.etudiants.countDocuments());   // 11
+
+// Contrôles complémentaires
+print("Sans téléphone : " +
+  db.etudiants.countDocuments({ telephone: { $exists: false } })); // 3
+
+print("En alternance : " +
+  db.etudiants.countDocuments({ alternance: { $exists: true } })); // 1
+
+print("En stage : " +
+  db.etudiants.countDocuments({ stage: { $exists: true } }));      // 1
+
+
+// =====================================================================
+//  Points à retenir
+//  - telephone et codePostal sont des chaînes : en nombre, le 0 initial
+//    du téléphone serait perdu, et on ne calcule pas sur un code postal.
+//  - Une valeur absente ne s'écrit ni null ni "" : on omet le champ.
+//  - Deux documents d'une même collection peuvent avoir des structures
+//    différentes (alternance / stage) : c'est la flexibilité du schéma.
+//  - new Date(...) stocke de vraies dates, utilisables plus tard avec
+//    $gte / $lte.
+// =====================================================================
