@@ -1,0 +1,2634 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//S7 Revisions//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:S7 Révisions
+X-WR-TIMEZONE:Africa/Casablanca
+BEGIN:VEVENT
+UID:0bf7ec51066fb883@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261106T190000
+DTEND:20261106T200000
+SUMMARY:Analyse données · Chap 0 · Fondamentaux et rappels de statistiqu
+ es
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : Analyse-Donnees/Cours/chap0_Intro (25 p.).\nEssayer : Prendre un
+ e petite série de 10 valeurs : moyenne\, variance\, écart-type à la mai
+ n\, puis avec numpy.\nTerminé quand : Tes calculs à la main et ceux de n
+ umpy coïncident.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · Chap 0 · Fondamentaux et rappels de statis
+ tiques
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5428b72f69860842@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261107T093000
+DTEND:20261107T094500
+SUMMARY:Compléter examens.md
+DESCRIPTION:Renseigner _Planning/examens.md : coefficient et date de chaque
+  module\, et les dates de rendu des projets NoSQL\, Virtualisation et Prog
+ rammation avancée. Les dates décident de la suite du planning.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Compléter examens.md
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:514043c6bf8faccd@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261107T100000
+DTEND:20261107T120000
+SUMMARY:Prog avancée · DentalSoft · Cahier des charges
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : Programmation-Avancee/Projet/Dossier de Specification Dental
+ Soft Guide.pdf\, chapitre 1.\nEssayer : Lister les fonctionnalités en 10 
+ lignes et marquer celles qui existent déjà dans le code.\nTerminé quand
+  : Tu peux présenter le projet en 2 minutes sans notes.\nFin de séance :
+  noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · DentalSoft · Cahier des charges
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c6ad76fcb27b572c@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261107T140000
+DTEND:20261107T144500
+SUMMARY:Virtualisation · Introduction : virtualisation et cloud
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : Virtualisation/Cours/Introduction Virtualisation et Cloud (11 p.) :
+  5 caractéristiques\, 3 modèles de service\, 4 modèles de déploiement.
+ \nEssayer : Tableau IaaS\, PaaS\, SaaS avec un exemple réel chacun.\nTerm
+ iné quand : Tu cites les 5 caractéristiques\, 3 modèles de service et 4
+  modèles de déploiement de mémoire.\nFin de séance : noter chaque erre
+ ur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · Introduction : virtualisation et cloud
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:708088c2df9eee36@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261108T100000
+DTEND:20261108T113000
+SUMMARY:.NET · C# · bases du langage
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : DotNet/Cour
+ s/Cours_C# (42 p.) : variables\, conditions\, boucles\, tableaux\, listes\
+ , méthodes.\nEssayer : Refaire les 5 exercices de DotNet/TD/TD_1.pdf en a
+ pplication console.\nTerminé quand : Les 5 exercices tournent sans le cou
+ rs ouvert.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · C# · bases du langage
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6a029cd104b627e8@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261108T114500
+DTEND:20261108T123000
+SUMMARY:Admin Unix · Cours 01 · Histoire et choix de distribution
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : A
+ dmin-Unix/Cours/Adm_UNIX_01_1 (75 p.)\, parcours rapide.\nEssayer : Pour 3
+  distributions\, noter philosophie\, cas d'usage\, gestionnaire de paquets
+ .\nTerminé quand : Tu justifies le choix de RHEL pour un serveur.\nFin de
+  séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · Cours 01 · Histoire et choix de distribution
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:14eef3efb83b60e4@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261108T160000
+DTEND:20261108T170000
+SUMMARY:Android · Ch.1 · Environnement de développement Android
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Android
+ /Cours/chapitre1 (24 p.) : SDK\, JDK 11 ou plus\, 8 Go d'espace libre.\nEs
+ sayer : Vérifier ton installation d'Android Studio et lancer un émulateu
+ r.\nTerminé quand : L'émulateur démarre.\nFin de séance : noter chaque
+  erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · Ch.1 · Environnement de développement Android
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:91369e67e60611b8@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261108T200000
+DTEND:20261108T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:59c535935dd4f95a@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261109T190000
+DTEND:20261109T200000
+SUMMARY:RO · Chap 1 · Les trois notions : sommets\, liens\, grandeur
+DESCRIPTION:RO · 60 min\nDébut : 10 min pour refaire 2 erreurs de Recherc
+ he-Operationnelle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprend
+ re : Recherche-Operationnelle/Cours/SUPPORT COURS RO_S1 (12 p.).\nEssayer 
+ : Prendre 3 situations de ta vie (trajets\, emploi du temps\, réseau) et 
+ nommer sommets\, liens et grandeur de chaque lien.\nTerminé quand : Tu re
+ formules les trois notions avec tes propres exemples.\nFin de séance : no
+ ter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RO · Chap 1 · Les trois notions : sommets\, liens\, grandeur
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c3f83bdac79c5f0c@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261110T190000
+DTEND:20261110T200000
+SUMMARY:AI/ML · Chap 1 · Définition et histoire de l'IA
+DESCRIPTION:AI/ML · 60 min\nDébut : 10 min pour refaire 2 erreurs de AI-M
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : AI-ML/Cours
+ /Presentation_Chapitre1 (40 p.) : sections définition et histoire.\nEssay
+ er : Expliquer à voix haute\, sans notes\, ce qui distingue IA symbolique
+ \, connexionniste et hybride\, avec un exemple chacune.\nTerminé quand : 
+ Tu peux refaire les exercices 1 et 2 de AI-ML/TD/TD_Chapitre1_IA.pdf sans 
+ regarder le cours.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI/ML · Chap 1 · Définition et histoire de l'IA
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a9dc247aacff1a4e@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261111T190000
+DTEND:20261111T203000
+SUMMARY:Oracle · Ch.1 · Introduction et installation 19c
+DESCRIPTION:Oracle · 90 min\nDébut : 10 min pour refaire 2 erreurs de Ora
+ cle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Oracle/Co
+ urs/chapitre1-Introduction (20 p.) : le plan en 8 chapitres. Puis installa
+ tion_oracle_19c.\nEssayer : Vérifier : sqlplus / as sysdba\, show user\, 
+ show con_name.\nTerminé quand : Tu te connectes en SYSDBA et tu dis où t
+ u es (CDB ou PDB).\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Oracle · Ch.1 · Introduction et installation 19c
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9aa90a9315e01a06@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261112T190000
+DTEND:20261112T200000
+SUMMARY:NoSQL · Ch.1 · Pourquoi NoSQL
+DESCRIPTION:NoSQL · 60 min\nDébut : 10 min pour refaire 2 erreurs de NoSQ
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : NoSQL/Cours
+ /Chapitre_1 (29 p.)\, parties 1 et 2 : limites du modèle relationnel\, no
+ uveaux besoins.\nEssayer : Construire un tableau relationnel contre NoSQL 
+ sur 4 critères (cohérence\, structure\, volume\, évolution du schéma).
+ \nTerminé quand : Tu justifies sans notes pourquoi une application préci
+ se (réseau social\, capteurs) choisirait NoSQL.\nFin de séance : noter c
+ haque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NoSQL · Ch.1 · Pourquoi NoSQL
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:165d5c9567d9506a@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261113T190000
+DTEND:20261113T200000
+SUMMARY:Analyse données · Chap 0 · Relation entre variables : covariance
+  et coefficient r
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : chap0_relation_entre_variables (56 p.)\, première partie.\nEssa
+ yer : Refaire l'exercice d'application : moyennes\, écarts\, produits cro
+ isés\, r\, interprétation\, puis vérifier avec pandas .corr().\nTermin
+ é quand : Tu interprètes un r de 0\,3\, de 0\,9 et de -0\,8 sans hésite
+ r.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · Chap 0 · Relation entre variables : covari
+ ance et coefficient r
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dc188eaaf7b57e7f@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261114T100000
+DTEND:20261114T120000
+SUMMARY:Prog avancée · DentalSoft · Architecture et conception
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : Chapitre 2 du dossier + code de DentalSoftSwing (domain\, re
+ pository\, service).\nEssayer : Dessiner le diagramme des couches : Patien
+ t\, CrudRepo\, PatientRepo\, PatientServiceImpl\, controller.\nTerminé qu
+ and : Tu suis un appel de l'interface jusqu'à la base en citant chaque cl
+ asse.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · DentalSoft · Architecture et conception
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f5525123a4c0fe31@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261114T140000
+DTEND:20261114T144500
+SUMMARY:Virtualisation · Projet · lire le sujet et choisir
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : Virtualisation/Projet/sujets devoir projet 2026-2027 : rapport de 1
+ 0 à 15 pages\, un TP\, une évaluation.\nEssayer : Choisir un sujet et é
+ crire un plan de rapport. Vérifier la date de rendu.\nTerminé quand : Su
+ jet choisi\, plan d'une page.\nFin de séance : noter chaque erreur dans e
+ rreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · Projet · lire le sujet et choisir
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7412ab64fed7754f@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261115T100000
+DTEND:20261115T113000
+SUMMARY:.NET · C# · POO : classes\, constructeurs\, accesseurs
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Cours_C# PO
+ O (50 p.) : objets\, visibilité\, ToString\, set/get\, constructeurs\, st
+ atic.\nEssayer : Refaire TP_2 (4 exercices) avec tes propres classes.\nTer
+ miné quand : Tu écris une classe complète sans modèle.\nFin de séance
+  : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · C# · POO : classes\, constructeurs\, accesseurs
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9cc06dfe062b281f@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261115T114500
+DTEND:20261115T123000
+SUMMARY:Admin Unix · FHS · hiérarchie des fichiers + TP1-1
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : A
+ dm_UNIX_01_2 (26 p.) et TP1-1-Hiérarchie des fichiers Linux.\nEssayer : R
+ épondre au questionnaire du TP sans notes\, puis parcourir / avec ls et d
+ ire le rôle de chaque dossier.\nTerminé quand : Tu cites le rôle de /de
+ v\, /etc\, /var\, /proc\, /boot de mémoire.\nFin de séance : noter chaqu
+ e erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · FHS · hiérarchie des fichiers + TP1-1
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8fce79f3d4495ff5@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261115T160000
+DTEND:20261115T170000
+SUMMARY:Android · TP0 · Premier projet (XML + Java)
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Android
+ /TP/TP1.pdf.\nEssayer : Refaire le TP : créer un projet\, modifier l'inte
+ rface en XML\, écrire le code Java\, lancer.\nTerminé quand : L'applicat
+ ion tourne sans le PDF.\nFin de séance : noter chaque erreur dans erreurs
+ .md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · TP0 · Premier projet (XML + Java)
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5d1195de4fbb7125@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261115T200000
+DTEND:20261115T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ed5e3d6ee8f4545f@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261116T190000
+DTEND:20261116T200000
+SUMMARY:RO · Séance 2 · Modéliser un énoncé en graphe
+DESCRIPTION:RO · 60 min\nDébut : 10 min pour refaire 2 erreurs de Recherc
+ he-Operationnelle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprend
+ re : Cours/séance 2 (19 p.)\, partie A : traduire un énoncé en graphe.\
+ nEssayer : Faire seul l'exercice du don du sang\, à la main\, avant de li
+ re la correction.\nTerminé quand : Ton graphe correspond à celui du cour
+ s\, ou tu sais expliquer chaque écart.\nFin de séance : noter chaque err
+ eur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RO · Séance 2 · Modéliser un énoncé en graphe
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:097290a4e3aae0bd@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261117T190000
+DTEND:20261117T200000
+SUMMARY:AI/ML · Chap 1 · Fin du cours + TD (théories morales\, cas Medi-
+ Bot)
+DESCRIPTION:AI/ML · 60 min\nDébut : 10 min pour refaire 2 erreurs de AI-M
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fin de la p
+ résentation du chapitre 1.\nEssayer : Exercices 3 et 4 du TD : écrire ta
+  position sur Medi-Bot en 10 lignes\, avec une théorie morale nommée.\nT
+ erminé quand : Ton paragraphe défend une position précise et cite une t
+ héorie.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI/ML · Chap 1 · Fin du cours + TD (théories morales\, cas M
+ edi-Bot)
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:15e3128e8df5ff43@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261118T190000
+DTEND:20261118T203000
+SUMMARY:Oracle · TP1 · SQL*Plus et formatage
+DESCRIPTION:Oracle · 90 min\nDébut : 10 min pour refaire 2 erreurs de Ora
+ cle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Oracle/TP
+ /TP1_formatage.pdf.\nEssayer : Refaire sans le guide : utilisateur HR\, SY
+ SDBA\, show pdbs\, ouvrir un PDB MOUNTED\, changer de conteneur\, formater
+  les colonnes.\nTerminé quand : Tu termines le TP et compares avec ton co
+ mpte rendu.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Oracle · TP1 · SQL*Plus et formatage
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bf27c0853717c9b2@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261119T190000
+DTEND:20261119T200000
+SUMMARY:NoSQL · Ch.1 · Fin : familles et cohérence
+DESCRIPTION:NoSQL · 60 min\nDébut : 10 min pour refaire 2 erreurs de NoSQ
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fin du chap
+ itre 1 (parties 3 et 4).\nEssayer : Associer chaque famille NoSQL du cours
+  à un cas d'usage réel de ton choix.\nTerminé quand : Tu sais citer les
+  familles et un cas d'usage pour chacune.\nFin de séance : noter chaque e
+ rreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NoSQL · Ch.1 · Fin : familles et cohérence
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6873e342e5642f9e@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261120T190000
+DTEND:20261120T200000
+SUMMARY:Analyse données · Chap 0 · Régression linéaire simple
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : Suite du chap0_relation : modèle linéaire\, hypothèses sur le
+ s erreurs.\nEssayer : Sur Analyse-Donnees/TP/Donnees/iris.xlsx : ajuster u
+ ne droite avec numpy puis sklearn\, tracer les résidus.\nTerminé quand :
+  Tu expliques ce que montrent les résidus.\nFin de séance : noter chaque
+  erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · Chap 0 · Régression linéaire simple
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4caeda527f43e2c7@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261121T100000
+DTEND:20261121T120000
+SUMMARY:Prog avancée · Repository · JDBC MySQL et Oracle
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : Comparer repository/jdbcMySql/PatientRepoImpl et oracleImpl/
+ PatientRepoImpl.\nEssayer : Écrire une nouvelle méthode findByNom dans l
+ 'une des deux implémentations\, sans copier.\nTerminé quand : La méthod
+ e fonctionne et tu sais quelles lignes changent entre MySQL et Oracle.\nFi
+ n de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · Repository · JDBC MySQL et Oracle
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:629858e2eddfa28c@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261121T140000
+DTEND:20261121T144500
+SUMMARY:Virtualisation · TP1 · VirtualBox
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : Virtualisation/TP/TP1-Hyperviseur de type 2-VirtualBox.\nEssayer : 
+ Créer une VM\, régler RAM\, disque\, réseau\, dossier partagé\, export
+ er et cloner.\nTerminé quand : Tu exportes et clones une VM sans le PDF.\
+ nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · TP1 · VirtualBox
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:df01e8458854997e@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261122T100000
+DTEND:20261122T113000
+SUMMARY:.NET · C# · héritage
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fin de Cour
+ s_C# POO : héritage.\nEssayer : Créer Personne\, Etudiant\, Prof avec To
+ String redéfini et une liste polymorphe.\nTerminé quand : Tu expliques p
+ ourquoi chaque méthode se comporte ainsi.\nFin de séance : noter chaque 
+ erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · C# · héritage
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4b7950e071c61b48@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261122T114500
+DTEND:20261122T123000
+SUMMARY:Admin Unix · TP1-0 · Installation RHEL 9 et commandes de base
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : A
+ dmin-Unix/TP/TP1-0-Installation+Commandes de base.\nEssayer : Recréer la 
+ VM RHEL 9 avec le partitionnement du TP\, créer les utilisateurs\, prendr
+ e un snapshot.\nTerminé quand : VM fonctionnelle avec snapshot propre.\nF
+ in de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · TP1-0 · Installation RHEL 9 et commandes de base
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8af86867a28f540d@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261122T160000
+DTEND:20261122T170000
+SUMMARY:Android · Structure d'un projet Android
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Manifes
+ t\, res/\, Gradle dans ton projet.\nEssayer : Changer un texte\, une coule
+ ur\, un layout\, puis relancer.\nTerminé quand : Tu dis où est chaque ch
+ ose.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · Structure d'un projet Android
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f1c5d77dd0f52274@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261122T200000
+DTEND:20261122T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cf59b98c87a939b3@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261123T190000
+DTEND:20261123T200000
+SUMMARY:RO · Séance 2 · Fin + énoncés de ton cru
+DESCRIPTION:RO · 60 min\nDébut : 10 min pour refaire 2 erreurs de Recherc
+ he-Operationnelle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprend
+ re : Fin de la séance 2.\nEssayer : Inventer 2 énoncés courts (un d'ord
+ onnancement\, un de trajet) et les modéliser sans notes.\nTerminé quand 
+ : Deux modèles justifiés\, sans regarder le cours.\nFin de séance : not
+ er chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RO · Séance 2 · Fin + énoncés de ton cru
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d805381afc3cefa6@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261124T190000
+DTEND:20261124T200000
+SUMMARY:AI/ML · Chap 2 · Modéliser un problème de recherche
+DESCRIPTION:AI/ML · 60 min\nDébut : 10 min pour refaire 2 erreurs de AI-M
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : AI-ML/Cours
+ /Presentation_Chapitre2 (28 p.) : espace de recherche\, états\, opérateu
+ rs\, but\, coût.\nEssayer : Modéliser sur papier le trajet de villes du 
+ cours (Arad vers Bucarest) : liste des états\, opérateurs\, coût d'une 
+ action.\nTerminé quand : Tu écris l'espace de recherche d'un nouveau pro
+ blème (taquin ou labyrinthe) sans modèle.\nFin de séance : noter chaque
+  erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI/ML · Chap 2 · Modéliser un problème de recherche
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:337dd0c5a2ecd7ec@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261125T190000
+DTEND:20261125T203000
+SUMMARY:Oracle · Ch.3 · Architecture : CDB\, PDB\, services\, listener
+DESCRIPTION:Oracle · 90 min\nDébut : 10 min pour refaire 2 erreurs de Ora
+ cle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : chapitre3
+ -Architecture et chapitre3-Complément architecture 19C.\nEssayer : Ajoute
+ r une entrée dans tnsnames.ora\, recharger le listener (lsnrctl reload)\,
+  te connecter par le service.\nTerminé quand : Tu expliques le chemin d'u
+ ne connexion client jusqu'à l'instance.\nFin de séance : noter chaque er
+ reur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Oracle · Ch.3 · Architecture : CDB\, PDB\, services\, listene
+ r
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5812290f3793dd11@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261126T190000
+DTEND:20261126T200000
+SUMMARY:NoSQL · TP · Docker + MongoDB + Compass
+DESCRIPTION:NoSQL · 60 min\nDébut : 10 min pour refaire 2 erreurs de NoSQ
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : NoSQL/TP/TP
+ 1_Installation_Docker_MongoDB et TP-1-2-Compass.\nEssayer : Supprimer ton 
+ conteneur MongoDB\, le recréer depuis zéro\, te reconnecter avec Compass
+ . Chronométrer.\nTerminé quand : Reconstruction complète en moins de 10
+  min sans le PDF.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NoSQL · TP · Docker + MongoDB + Compass
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d9bbc673788e985e@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261127T190000
+DTEND:20261127T200000
+SUMMARY:Analyse données · Chap 1 · Lecture et écriture de fichiers avec
+  pandas
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : Analyse-Donnees/Cours/chap1_fichiers (20 p.) puis TP1.\nEssayer 
+ : Refaire TP1 dans un notebook vide : CSV\, Excel (deux feuilles)\, export
+ .\nTerminé quand : Ton notebook tourne de bout en bout sans copier l'anci
+ en tp1.ipynb.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · Chap 1 · Lecture et écriture de fichiers 
+ avec pandas
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5f42ff4f8b3a7c84@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261128T100000
+DTEND:20261128T120000
+SUMMARY:Prog avancée · Service\, controller et ApplicationContext
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : service/impl\, ui/controllers\, config/ApplicationContext.\n
+ Essayer : Ajouter le cas d'usage rechercher un patient\, de la couche serv
+ ice jusqu'au controller.\nTerminé quand : Le cas d'usage tourne avec des 
+ données réelles.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · Service\, controller et ApplicationContext
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f9fcadaf104fba25@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261128T140000
+DTEND:20261128T144500
+SUMMARY:Virtualisation · TP2 · VMware Workstation et snapshots
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : TP2-Hyperviseur de type 2-VmwareWorkstation.\nEssayer : Créer une 
+ VM\, prendre un snapshot\, supprimer un dossier\, restaurer.\nTerminé qua
+ nd : Le dossier supprimé revient après restauration.\nFin de séance : n
+ oter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · TP2 · VMware Workstation et snapshots
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5324322ffdb2e634@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261129T100000
+DTEND:20261129T113000
+SUMMARY:.NET · ASP.NET MVC · Modèle\, Vue\, Contrôleur
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Cours_aspne
+ t (35 p.)\, Guide_Installation\, TP_3.\nEssayer : Refaire TP_3 : projet MV
+ C\, HomeController\, Hello World.\nTerminé quand : Le projet tourne et tu
+  dis le rôle de M\, V et C.\nFin de séance : noter chaque erreur dans er
+ reurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · ASP.NET MVC · Modèle\, Vue\, Contrôleur
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:85ed4011828674a0@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261129T114500
+DTEND:20261129T123000
+SUMMARY:Admin Unix · Cours 02 · Séquence de démarrage : BIOS\, UEFI\, G
+ RUB2
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : A
+ dmin-Unix/Cours/Adm_UNIX_02 (78 p.).\nEssayer : Dessiner la séquence de d
+ émarrage BIOS puis UEFI étape par étape.\nTerminé quand : Tu expliques
+  la différence entre les deux séquences sans notes.\nFin de séance : no
+ ter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · Cours 02 · Séquence de démarrage : BIOS\, UEFI
+ \, GRUB2
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:292d729038a4ce00@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261129T160000
+DTEND:20261129T170000
+SUMMARY:Android · Interface : bouton et événement
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Exercic
+ e choisi par toi (pas dans le dépôt).\nEssayer : Créer une app compteur
+  : un bouton qui incrémente un TextView.\nTerminé quand : L'app compte c
+ orrectement.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · Interface : bouton et événement
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:51cc9dea4621a916@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261129T200000
+DTEND:20261129T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:39a7927f03980c8a@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261130T190000
+DTEND:20261130T200000
+SUMMARY:RO · Séance 3 · Les quatre questions posées à un graphe
+DESCRIPTION:RO · 60 min\nDébut : 10 min pour refaire 2 erreurs de Recherc
+ he-Operationnelle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprend
+ re : Cours/séance 3 (22 p.) : chemin\, coloration\, et les autres questio
+ ns du cours.\nEssayer : Résoudre à la main les exemples du cours (états
+  valides\, trajet avec distances\, cinq matières non simultanées). Chron
+ ométrer.\nTerminé quand : Tu sais associer chaque énoncé à la bonne q
+ uestion.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RO · Séance 3 · Les quatre questions posées à un graphe
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9e270af75f1aff6a@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261201T190000
+DTEND:20261201T200000
+SUMMARY:AI/ML · Chap 2 · Parcours en largeur et en profondeur (OPEN/CLOSE
+ D)
+DESCRIPTION:AI/ML · 60 min\nDébut : 10 min pour refaire 2 erreurs de AI-M
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Relire la s
+ ection sur développer un nœud\, OPEN\, CLOSED.\nEssayer : Coder BFS et D
+ FS en Python sur le graphe de villes. Afficher OPEN et CLOSED à chaque it
+ ération.\nTerminé quand : Ton affichage correspond au déroulé fait à 
+ la main sur le même graphe.\nFin de séance : noter chaque erreur dans er
+ reurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI/ML · Chap 2 · Parcours en largeur et en profondeur (OPEN/C
+ LOSED)
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:68a8f59f881be942@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261202T190000
+DTEND:20261202T203000
+SUMMARY:Oracle · Ch.4 · Instance Oracle partie 1 : SGA\, PGA\, processus
+DESCRIPTION:Oracle · 90 min\nDébut : 10 min pour refaire 2 erreurs de Ora
+ cle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Oracle/Co
+ urs/chapitre4-Instance Oracle - Partie 1 (16 p.).\nEssayer : Interroger v$
+ sga\, v$process\, v$bgprocess. Dessiner SGA\, PGA et processus d'arrière-
+ plan de mémoire.\nTerminé quand : Ton schéma est complet et chaque vue 
+ v$ est associée à un élément.\nFin de séance : noter chaque erreur da
+ ns erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Oracle · Ch.4 · Instance Oracle partie 1 : SGA\, PGA\, proces
+ sus
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:97b91e93e027cbfa@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261203T190000
+DTEND:20261203T200000
+SUMMARY:NoSQL · Ch.2 · Requêtes MongoDB (parties 1 à 3)
+DESCRIPTION:NoSQL · 60 min\nDébut : 10 min pour refaire 2 erreurs de NoSQ
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Cours Chapi
+ tre2 MongoDB : find\, filtres\, opérateurs de comparaison\, $regex\, proj
+ ections\, tri.\nEssayer : Charger NoSQL/TP/MongoDB-tp-shop-data.js puis é
+ crire 10 requêtes variées sur customers\, products\, orders.\nTerminé q
+ uand : Tes 10 requêtes donnent le résultat attendu\, vérifié dans Comp
+ ass.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NoSQL · Ch.2 · Requêtes MongoDB (parties 1 à 3)
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:317b8f5963c8d376@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261204T190000
+DTEND:20261204T200000
+SUMMARY:Analyse données · Chap 2 · Données manquantes et nettoyage
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : Analyse-Donnees/Cours/traitement_data (35 p.).\nEssayer : Refair
+ e TP2 : normaliser Volume\, supprimer les doublons\, traiter les valeurs m
+ anquantes.\nTerminé quand : Pour chaque méthode de traitement tu sais di
+ re quand l'utiliser.\nFin de séance : noter chaque erreur dans erreurs.md
+ .
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · Chap 2 · Données manquantes et nettoyage
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9c27da2f2cdc1463@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261205T100000
+DTEND:20261205T120000
+SUMMARY:Prog avancée · Interface Swing · vue et modèle de table
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : Cours Swing et contrôleurs existants.\nEssayer : Construire
+  une vue avec JTable alimentée par PatientController.\nTerminé quand : L
+ a liste des patients s'affiche et se rafraîchit.\nFin de séance : noter 
+ chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · Interface Swing · vue et modèle de table
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:91844b41af2c4c01@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261205T140000
+DTEND:20261205T144500
+SUMMARY:Virtualisation · TP3 · Type 1 : ESXi / vSphere
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : TP3-Hyperviseur de type 1-Vmware Vsphere.\nEssayer : Configurer le 
+ réseau de management (F2)\, accéder à l'interface web\, téléverser un
+  ISO\, créer une VM. Si pas de matériel : ESXi dans VMware Workstation.\
+ nTerminé quand : Une VM tourne sur ESXi.\nFin de séance : noter chaque e
+ rreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · TP3 · Type 1 : ESXi / vSphere
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9e4be2835a28666d@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261206T100000
+DTEND:20261206T113000
+SUMMARY:.NET · ASP.NET MVC · TP_4 : listes Etudiant et Prof
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : DotNet/TP/T
+ P_4.pdf.\nEssayer : Refaire sans guide : modèles\, contrôleurs avec list
+ e statique\, vues Index.cshtml.\nTerminé quand : Deux pages affichent leu
+ rs listes.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · ASP.NET MVC · TP_4 : listes Etudiant et Prof
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c9022f6a03c443f9@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261206T114500
+DTEND:20261206T123000
+SUMMARY:Admin Unix · TP2 · GRUB2 : découverte et configuration
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : T
+ P2- Configuration Grub2\, parties 1 et 2.\nEssayer : Dans la VM : mode BIO
+ S ou UEFI\, contenu de /boot\, noyaux installés\, /etc/default/grub\, /et
+ c/grub.d.\nTerminé quand : Tu modifies GRUB_TIMEOUT et régénères la co
+ nfiguration.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · TP2 · GRUB2 : découverte et configuration
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5817bcc0bc5405cf@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261206T160000
+DTEND:20261206T170000
+SUMMARY:Android · Nouveau chapitre : lire et reproduire
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Le proc
+ hain chapitre reçu.\nEssayer : Reproduire chaque exemple du chapitre dans
+  Android Studio.\nTerminé quand : Chaque exemple fonctionne.\nFin de séa
+ nce : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · Nouveau chapitre : lire et reproduire
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a99277abc5bdd4f6@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261206T200000
+DTEND:20261206T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ce544ec3cedb267b@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261207T190000
+DTEND:20261207T200000
+SUMMARY:RO · Séance 3 · Fin + tableau de synthèse
+DESCRIPTION:RO · 60 min\nDébut : 10 min pour refaire 2 erreurs de Recherc
+ he-Operationnelle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprend
+ re : Fin de la séance 3.\nEssayer : Construire un tableau : type de quest
+ ion\, type de graphe\, méthode de résolution\, exemple.\nTerminé quand 
+ : Le tableau est complet et sert de base à la fiche.\nFin de séance : no
+ ter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RO · Séance 3 · Fin + tableau de synthèse
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a17512136a0316ac@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261208T190000
+DTEND:20261208T200000
+SUMMARY:AI/ML · Chap 2 · Recherche guidée (coût\, heuristique)
+DESCRIPTION:AI/ML · 60 min\nDébut : 10 min pour refaire 2 erreurs de AI-M
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Les section
+ s suivantes du chapitre 2 (coût uniforme\, gloutonne\, A* si elles sont a
+ u programme).\nEssayer : Ajouter une version à coût ou heuristique à to
+ n code et comparer le nombre de nœuds développés avec BFS.\nTerminé qu
+ and : Tu sais dire quand chaque stratégie est optimale et pourquoi.\nFin 
+ de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI/ML · Chap 2 · Recherche guidée (coût\, heuristique)
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:775c92b1ee2eb87c@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261209T190000
+DTEND:20261209T203000
+SUMMARY:Oracle · TP2 · Sessions et connexions
+DESCRIPTION:Oracle · 90 min\nDébut : 10 min pour refaire 2 erreurs de Ora
+ cle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Oracle/TP
+ /TP2_architecture&instance.pdf.\nEssayer : Refaire : v$session\, deux sess
+ ions sur une connexion\, repérer les inactives\, tuer une session.\nTermi
+ né quand : Tu tues une session précise sans regarder la syntaxe.\nFin de
+  séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Oracle · TP2 · Sessions et connexions
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:26ca053ee5d569d9@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261210T190000
+DTEND:20261210T200000
+SUMMARY:NoSQL · Ch.2 · Index\, explain()\, agrégation\, validation (part
+ ies 4 et 5)
+DESCRIPTION:NoSQL · 60 min\nDébut : 10 min pour refaire 2 erreurs de NoSQ
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : NoSQL/Cours
+ /Chapitre_2_Parties_4_et_5.\nEssayer : Refaire le compte rendu compterendu
+ appchap2 : index + explain()\, pipeline $group\, validation JSON Schema (n
+ om obligatoire\, âge entre 18 et 30).\nTerminé quand : Tu montres la dif
+ férence de explain() avant et après index\, et un document refusé par l
+ a validation.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NoSQL · Ch.2 · Index\, explain()\, agrégation\, validation (
+ parties 4 et 5)
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:affd3e55d710118a@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261211T190000
+DTEND:20261211T200000
+SUMMARY:Analyse données · TP2 sur un autre jeu de données
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : Relire les méthodes d'imputation.\nEssayer : Injecter 10 % de v
+ aleurs manquantes dans iris.xlsx\, imputer de trois façons\, comparer l'e
+ ffet sur la moyenne et sur r.\nTerminé quand : Un petit tableau comparati
+ f avec ta conclusion.\nFin de séance : noter chaque erreur dans erreurs.m
+ d.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · TP2 sur un autre jeu de données
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d234151ed5f331f5@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261212T100000
+DTEND:20261212T120000
+SUMMARY:Prog avancée · Exceptions\, DTO et tests JUnit
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : Les packages exceptions et dto du projet.\nEssayer : Écrire
+  un test JUnit du service avec un faux repository.\nTerminé quand : Le te
+ st passe\, et échoue quand tu casses le service exprès.\nFin de séance 
+ : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · Exceptions\, DTO et tests JUnit
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c27f14583a5db820@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261212T140000
+DTEND:20261212T144500
+SUMMARY:Virtualisation · Fiche : type 1 contre type 2
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : Relire erreurs.md.\nEssayer : Tableau comparatif : isolation\, perf
+ ormances\, cas d'usage\, produits rencontrés dans les 3 TP.\nTerminé qua
+ nd : Tu recommandes un hyperviseur pour trois scénarios.\nFin de séance 
+ : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · Fiche : type 1 contre type 2
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2898ba48e2bcec20@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261213T100000
+DTEND:20261213T113000
+SUMMARY:.NET · Entity Framework · Database First
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Cours_adone
+ t_P1 (36 p.) : ORM\, architecture EF\, Database First.\nEssayer : Refaire 
+ TP_5 : base BD_VENTE dans SQL Server\, table PRODUITS\, modèle généré\
+ , CRUD.\nTerminé quand : Un CRUD sur PRODUITS fonctionne.\nFin de séance
+  : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · Entity Framework · Database First
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f9e01e3d4ebd978d@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261213T114500
+DTEND:20261213T123000
+SUMMARY:Admin Unix · TP2 · Reset du mot de passe root + protection de GRU
+ B2
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : T
+ P2\, parties 3 à 5\, avec ton compte rendu.\nEssayer : Revenir au snapsho
+ t\, réinitialiser le mot de passe root\, puis protéger GRUB2 par mot de 
+ passe. Uniquement dans la VM.\nTerminé quand : Tu fais les deux manipulat
+ ions sans le PDF.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · TP2 · Reset du mot de passe root + protection de
+  GRUB2
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:917d727f067f1fd2@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261213T160000
+DTEND:20261213T170000
+SUMMARY:Android · Rattrapage
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Les nou
+ veaux supports.\nEssayer : Reproduire les exemples manquants.\nTerminé qu
+ and : Plus aucun exemple en retard.\nFin de séance : noter chaque erreur 
+ dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · Rattrapage
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ced42822b5263832@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261213T200000
+DTEND:20261213T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f72fb2560a8c9b68@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261214T190000
+DTEND:20261214T200000
+SUMMARY:RO · Fiche des méthodes
+DESCRIPTION:RO · 60 min\nDébut : 10 min pour refaire 2 erreurs de Recherc
+ he-Operationnelle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprend
+ re : Relire erreurs.md.\nEssayer : Rédiger RO/Revisions/fiche.md : pour c
+ haque question\, la méthode pas à pas avec un exemple résolu.\nTerminé
+  quand : Tu résous un exemple de chaque méthode à partir de la fiche se
+ ule.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RO · Fiche des méthodes
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b5a067e57063641c@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261215T190000
+DTEND:20261215T200000
+SUMMARY:AI/ML · Fiche Chap 1 + 2
+DESCRIPTION:AI/ML · 60 min\nDébut : 10 min pour refaire 2 erreurs de AI-M
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Relire tes 
+ erreurs de AI-ML/Revisions/erreurs.md.\nEssayer : Remplir AI-ML/Revisions/
+ fiche.md : définitions\, classification\, algorithmes avec leurs proprié
+ tés.\nTerminé quand : La fiche tient sur une page et tu peux la réciter
+ .\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI/ML · Fiche Chap 1 + 2
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:82dd6590a2446043@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261216T190000
+DTEND:20261216T203000
+SUMMARY:Oracle · Fiche : commandes SQL*Plus et vues v$
+DESCRIPTION:Oracle · 90 min\nDébut : 10 min pour refaire 2 erreurs de Ora
+ cle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Relire er
+ reurs.md.\nEssayer : Remplir fiche.md avec les 20 commandes et vues à con
+ naître\, avec une phrase sur chacune.\nTerminé quand : La fiche tient su
+ r une page.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Oracle · Fiche : commandes SQL*Plus et vues v$
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:af2055ffeced2bf2@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261217T190000
+DTEND:20261217T200000
+SUMMARY:NoSQL · TP final shop_tp sans consigne
+DESCRIPTION:NoSQL · 60 min\nDébut : 10 min pour refaire 2 erreurs de NoSQ
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Lire seulem
+ ent l'énoncé de NoSQL/TP/TP-final-MongoDB-shop-tp.pdf.\nEssayer : Tout r
+ efaire : base shop_tp\, collections\, requêtes demandées. Chronométrer.
+ \nTerminé quand : Toutes les questions traitées\, erreurs notées dans e
+ rreurs.md.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NoSQL · TP final shop_tp sans consigne
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a0eb9eff19cf9cc6@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261218T190000
+DTEND:20261218T200000
+SUMMARY:Analyse données · Fiche : pipeline pandas
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : Relire erreurs.md.\nEssayer : Remplir fiche.md : import\, inspec
+ tion\, nettoyage\, statistiques\, corrélation\, régression\, avec la lig
+ ne de code de chaque étape.\nTerminé quand : La fiche te permet de refai
+ re une analyse sans internet.\nFin de séance : noter chaque erreur dans e
+ rreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · Fiche : pipeline pandas
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:757c2f720f8886df@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261219T100000
+DTEND:20261219T120000
+SUMMARY:Prog avancée · Nouvelle entité de bout en bout
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : Ton architecture actuelle.\nEssayer : Ajouter RendezVous (do
+ main\, repo\, service\, controller\, vue) en gardant la même structure.\n
+ Terminé quand : La nouvelle entité marche comme Patient.\nFin de séance
+  : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · Nouvelle entité de bout en bout
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2a0644a82a055366@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261219T140000
+DTEND:20261219T144500
+SUMMARY:Virtualisation · Projet · plan et environnement du TP
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : Ton plan de rapport.\nEssayer : Monter l'environnement du TP du pro
+ jet.\nTerminé quand : L'environnement est prêt à servir.\nFin de séanc
+ e : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · Projet · plan et environnement du TP
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:89b3745c1222257c@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261220T100000
+DTEND:20261220T113000
+SUMMARY:.NET · Cours_aspnet_P2 · reproduire chaque exemple
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : DotNet/Cour
+ s/Cours_aspnet_P2 (51 p.).\nEssayer : Reproduire chaque exemple dans un pr
+ ojet neuf.\nTerminé quand : Chaque exemple tourne.\nFin de séance : note
+ r chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · Cours_aspnet_P2 · reproduire chaque exemple
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:088c475d1d604e84@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261220T114500
+DTEND:20261220T123000
+SUMMARY:Admin Unix · TP3 · systemd : cibles\, services\, journalctl
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : T
+ P3- Configuration cibles-services-journalctl.\nEssayer : systemd-analyze\,
+  blame\, critical-chain\, cible par défaut\, systemctl\, journalctl.\nTer
+ miné quand : Tu trouves le service le plus lent au démarrage.\nFin de s
+ éance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · TP3 · systemd : cibles\, services\, journalctl
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:32dbf3ba37256a8b@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261220T160000
+DTEND:20261220T170000
+SUMMARY:Android · Mini-application complète
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Rien de
+  nouveau.\nEssayer : Application avec deux écrans (liste et détail).\nTe
+ rminé quand : Application fonctionnelle sur l'émulateur.\nFin de séance
+  : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · Mini-application complète
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f7edca33f84301e9@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261220T200000
+DTEND:20261220T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4369578a4c07439a@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261221T190000
+DTEND:20261221T200000
+SUMMARY:RO · Série d'exercices inventés
+DESCRIPTION:RO · 60 min\nDébut : 10 min pour refaire 2 erreurs de Recherc
+ he-Operationnelle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprend
+ re : Rien de nouveau.\nEssayer : Écrire 5 énoncés\, les modéliser et l
+ es résoudre à la main. Chercher un piège dans chacun.\nTerminé quand :
+  5 énoncés résolus\, erreurs notées.\nFin de séance : noter chaque er
+ reur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RO · Série d'exercices inventés
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:711bbc5347fb3a1b@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261222T190000
+DTEND:20261222T200000
+SUMMARY:AI/ML · Mini-projet · solveur de chemin
+DESCRIPTION:AI/ML · 60 min\nDébut : 10 min pour refaire 2 erreurs de AI-M
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Rien de nou
+ veau : réutiliser ton code du chapitre 2.\nEssayer : Lire un graphe depui
+ s un fichier et afficher le chemin trouvé\, le coût et les nœuds dével
+ oppés pour 2 stratégies.\nTerminé quand : Le programme tourne sur un gr
+ aphe que tu n'as pas écrit toi-même.\nFin de séance : noter chaque erre
+ ur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI/ML · Mini-projet · solveur de chemin
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8123760f84f862e2@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261223T190000
+DTEND:20261223T203000
+SUMMARY:Oracle · TP1 + TP2 chronométrés
+DESCRIPTION:Oracle · 90 min\nDébut : 10 min pour refaire 2 erreurs de Ora
+ cle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Rien de n
+ ouveau.\nEssayer : Refaire TP1 et TP2 en 45 minutes dans une VM propre.\nT
+ erminé quand : Aucune consultation de support.\nFin de séance : noter ch
+ aque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Oracle · TP1 + TP2 chronométrés
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ece5dcd3ab9d7d94@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261224T190000
+DTEND:20261224T200000
+SUMMARY:NoSQL · Projet · choisir le sujet et modéliser
+DESCRIPTION:NoSQL · 60 min\nDébut : 10 min pour refaire 2 erreurs de NoSQ
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : NoSQL/Proje
+ t/Sujets_Projets_NoSQL_4IIR.pdf : liste des sujets.\nEssayer : Choisir un 
+ sujet\, dessiner les collections\, décider embedding contre référence p
+ our chaque relation\, lister 5 requêtes clés.\nTerminé quand : Un sché
+ ma d'une page et 5 requêtes écrites. Vérifier la date de rendu.\nFin de
+  séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NoSQL · Projet · choisir le sujet et modéliser
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:23ab5e1b239fb446@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261225T190000
+DTEND:20261225T200000
+SUMMARY:Analyse données · Mini-analyse de bout en bout
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : Choisir un jeu de données public.\nEssayer : Importer\, nettoye
+ r\, décrire\, calculer r\, ajuster une régression\, conclure en 5 lignes
+ .\nTerminé quand : Notebook propre\, conclusion écrite.\nFin de séance 
+ : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · Mini-analyse de bout en bout
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4ec64571d291b761@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261226T100000
+DTEND:20261226T120000
+SUMMARY:Prog avancée · Charte graphique et maquettes → écran réel
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : Chapitre 3 du dossier de spécification.\nEssayer : Reprodui
+ re une maquette en Swing.\nTerminé quand : L'écran ressemble à la maque
+ tte.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · Charte graphique et maquettes → écran réel
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e667fa81d29de74f@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261226T140000
+DTEND:20261226T144500
+SUMMARY:Virtualisation · Projet · réaliser le TP
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : Ton plan et l'environnement.\nEssayer : Faire le TP et prendre tout
+ es les captures d'écran au fil de l'eau.\nTerminé quand : Le TP marche e
+ t chaque étape est capturée.\nFin de séance : noter chaque erreur dans 
+ erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · Projet · réaliser le TP
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4fcd41bf88c764e2@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261227T100000
+DTEND:20261227T113000
+SUMMARY:.NET · Mini-projet CRUD complet
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Ton TP_5.\n
+ Essayer : Gestion clients et commandes avec EF\, de zéro.\nTerminé quand
+  : CRUD sur deux tables liées.\nFin de séance : noter chaque erreur dans
+  erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · Mini-projet CRUD complet
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:17cd52165d37a9c4@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261227T114500
+DTEND:20261227T123000
+SUMMARY:Admin Unix · Fiche : commandes et fichiers clés
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : R
+ elire erreurs.md.\nEssayer : Remplir fiche.md : systemctl\, journalctl\, g
+ rub2-mkconfig\, chemins importants.\nTerminé quand : La fiche tient sur u
+ ne page.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · Fiche : commandes et fichiers clés
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0a52b80c95dca822@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261227T160000
+DTEND:20261227T170000
+SUMMARY:Android · Révision des notions du cours
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Les cha
+ pitres reçus.\nEssayer : Écrire la fiche\, puis refaire une des applicat
+ ions sans aide.\nTerminé quand : La fiche couvre tous les chapitres.\nFin
+  de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · Révision des notions du cours
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fc1feaeebbf6b573@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261227T200000
+DTEND:20261227T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c89ce5c4c5ee391a@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261228T190000
+DTEND:20261228T200000
+SUMMARY:RO · Rattrapage · nouvelle séance
+DESCRIPTION:RO · 60 min\nDébut : 10 min pour refaire 2 erreurs de Recherc
+ he-Operationnelle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprend
+ re : Lire les séances reçues depuis le dernier passage.\nEssayer : Refai
+ re à la main chaque exemple\, puis ajouter la méthode à la fiche.\nTerm
+ iné quand : La fiche couvre toutes les séances reçues.\nFin de séance 
+ : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RO · Rattrapage · nouvelle séance
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2756be8426712928@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261229T190000
+DTEND:20261229T200000
+SUMMARY:AI/ML · Rattrapage · nouveaux chapitres
+DESCRIPTION:AI/ML · 60 min\nDébut : 10 min pour refaire 2 erreurs de AI-M
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Lire les ch
+ apitres reçus depuis le dernier passage.\nEssayer : Pour chaque algorithm
+ e ou notion\, faire un exemple à la main puis le coder si c'est un algori
+ thme.\nTerminé quand : Chaque nouveau chapitre a sa section dans la fiche
+ .\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI/ML · Rattrapage · nouveaux chapitres
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:79e418a2b2c0c123@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261230T190000
+DTEND:20261230T203000
+SUMMARY:Oracle · Rattrapage · paramètres\, fichiers de contrôle\, redo\
+ , archivelog
+DESCRIPTION:Oracle · 90 min\nDébut : 10 min pour refaire 2 erreurs de Ora
+ cle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Les proch
+ ains chapitres du plan : paramètres\, contrôle\, journalisation\, archiv
+ age (selon l'avancement du cours).\nEssayer : Pour chaque notion : une com
+ mande exécutée et son résultat expliqué.\nTerminé quand : Chaque chap
+ itre reçu a une commande testée.\nFin de séance : noter chaque erreur d
+ ans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Oracle · Rattrapage · paramètres\, fichiers de contrôle\, r
+ edo\, archivelog
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a2c1239c5ee67cca@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261231T190000
+DTEND:20261231T200000
+SUMMARY:NoSQL · Projet · implémenter
+DESCRIPTION:NoSQL · 60 min\nDébut : 10 min pour refaire 2 erreurs de NoSQ
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Ton schéma
+  de la séance précédente.\nEssayer : Insérer un jeu de données\, écr
+ ire les requêtes\, créer les index utiles\, ajouter une validation JSON 
+ Schema.\nTerminé quand : Le projet tourne depuis un conteneur neuf.\nFin 
+ de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NoSQL · Projet · implémenter
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb2569e28ff44197@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270101T190000
+DTEND:20270101T200000
+SUMMARY:Analyse données · Rattrapage · nouveaux chapitres
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : Lire les chapitres reçus.\nEssayer : Reproduire chaque exemple 
+ dans un notebook.\nTerminé quand : Chaque chapitre a une entrée dans la 
+ fiche.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · Rattrapage · nouveaux chapitres
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f4b067783ee7ecde@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270102T100000
+DTEND:20270102T120000
+SUMMARY:Prog avancée · Revue de sprint · démo et dette technique
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : Chapitre 4 du dossier : organisation agile.\nEssayer : Faire
+  une démo de 5 minutes et lister 5 points de dette technique.\nTerminé q
+ uand : Une démo sans bug sur le chemin principal.\nFin de séance : noter
+  chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · Revue de sprint · démo et dette technique
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:252d80bdc57df03a@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270102T140000
+DTEND:20270102T144500
+SUMMARY:Virtualisation · Projet · rédiger le rapport
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : Le plan de rapport.\nEssayer : Rédiger 3 à 4 pages de rapport ave
+ c les captures.\nTerminé quand : Brouillon de plusieurs pages relu une fo
+ is.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · Projet · rédiger le rapport
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:adb49e207c388c28@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270103T100000
+DTEND:20270103T113000
+SUMMARY:.NET · Database First\, Code First\, Model First
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Comparaison
+  dans Cours_adonet_P1.\nEssayer : Reconstruire le même modèle en Code Fi
+ rst.\nTerminé quand : Tableau comparatif et un exemple en Code First.\nFi
+ n de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · Database First\, Code First\, Model First
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6b7df43f63318150@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270103T114500
+DTEND:20270103T123000
+SUMMARY:Admin Unix · Scénario de panne
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : R
+ ien de nouveau.\nEssayer : Casser exprès GRUB ou un service\, puis répar
+ er sans aide.\nTerminé quand : Réparation réussie et documentée en 5 l
+ ignes.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · Scénario de panne
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f22092487c75ddc4@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270103T160000
+DTEND:20270103T170000
+SUMMARY:Android · Rattrapage · nouveau contenu
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Les der
+ niers supports.\nEssayer : Reproduire les exemples.\nTerminé quand : Aucu
+ n chapitre sans exemple fonctionnel.\nFin de séance : noter chaque erreur
+  dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · Rattrapage · nouveau contenu
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:36faefae96120962@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270103T200000
+DTEND:20270103T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:91e0a6c9fcfd9921@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270104T190000
+DTEND:20270104T200000
+SUMMARY:RO · Reprise complète
+DESCRIPTION:RO · 60 min\nDébut : 10 min pour refaire 2 erreurs de Recherc
+ he-Operationnelle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprend
+ re : Fiche + erreurs.md.\nEssayer : Refaire les 3 exercices les plus raté
+ s de erreurs.md\, sans correction.\nTerminé quand : Les 3 exercices sont 
+ réussis.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RO · Reprise complète
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2609d6c4f55d9d68@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270105T190000
+DTEND:20270105T200000
+SUMMARY:AI/ML · Reprise complète
+DESCRIPTION:AI/ML · 60 min\nDébut : 10 min pour refaire 2 erreurs de AI-M
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fiche + err
+ eurs.md.\nEssayer : Refaire les 3 exercices les plus ratés de erreurs.md\
+ , sans correction.\nTerminé quand : Les 3 exercices sont réussis.\nFin d
+ e séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI/ML · Reprise complète
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4e6926e5d3a520b3@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270106T190000
+DTEND:20270106T203000
+SUMMARY:Oracle · Reprise complète
+DESCRIPTION:Oracle · 90 min\nDébut : 10 min pour refaire 2 erreurs de Ora
+ cle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fiche + e
+ rreurs.md.\nEssayer : Refaire les 3 exercices les plus ratés de erreurs.m
+ d\, sans correction.\nTerminé quand : Les 3 exercices sont réussis.\nFin
+  de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Oracle · Reprise complète
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e7e6acaf81bb7ad8@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270107T190000
+DTEND:20270107T200000
+SUMMARY:NoSQL · Reprise complète
+DESCRIPTION:NoSQL · 60 min\nDébut : 10 min pour refaire 2 erreurs de NoSQ
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fiche + err
+ eurs.md.\nEssayer : Refaire les 3 exercices les plus ratés de erreurs.md\
+ , sans correction.\nTerminé quand : Les 3 exercices sont réussis.\nFin d
+ e séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NoSQL · Reprise complète
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dc1a01efff7863a4@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270108T190000
+DTEND:20270108T200000
+SUMMARY:Analyse données · Reprise complète
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : Fiche + erreurs.md.\nEssayer : Refaire les 3 exercices les plus 
+ ratés de erreurs.md\, sans correction.\nTerminé quand : Les 3 exercices 
+ sont réussis.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · Reprise complète
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:263447ed43e697b6@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270109T100000
+DTEND:20270109T120000
+SUMMARY:Prog avancée · Reprise complète
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : Fiche + erreurs.md.\nEssayer : Refaire les 3 exercices les p
+ lus ratés de erreurs.md\, sans correction.\nTerminé quand : Les 3 exerci
+ ces sont réussis.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · Reprise complète
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6bf8d6399785a34d@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270109T140000
+DTEND:20270109T144500
+SUMMARY:Virtualisation · Reprise complète
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : Fiche + erreurs.md.\nEssayer : Refaire les 3 exercices les plus rat
+ és de erreurs.md\, sans correction.\nTerminé quand : Les 3 exercices son
+ t réussis.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · Reprise complète
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a0c3cd4a015cf107@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270110T100000
+DTEND:20270110T113000
+SUMMARY:.NET · Reprise complète
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fiche + err
+ eurs.md.\nEssayer : Refaire les 3 exercices les plus ratés de erreurs.md\
+ , sans correction.\nTerminé quand : Les 3 exercices sont réussis.\nFin d
+ e séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · Reprise complète
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:53b644f01946ec89@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270110T114500
+DTEND:20270110T123000
+SUMMARY:Admin Unix · Reprise complète
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : F
+ iche + erreurs.md.\nEssayer : Refaire les 3 exercices les plus ratés de e
+ rreurs.md\, sans correction.\nTerminé quand : Les 3 exercices sont réuss
+ is.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · Reprise complète
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fd8fbe4c53dda964@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270110T160000
+DTEND:20270110T170000
+SUMMARY:Android · Reprise complète
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fiche +
+  erreurs.md.\nEssayer : Refaire les 3 exercices les plus ratés de erreurs
+ .md\, sans correction.\nTerminé quand : Les 3 exercices sont réussis.\nF
+ in de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · Reprise complète
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b7927f3f1d2fc11c@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270110T200000
+DTEND:20270110T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2183311a9341cca5@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270111T190000
+DTEND:20270111T200000
+SUMMARY:RO · Test blanc chronométré
+DESCRIPTION:RO · 60 min\nDébut : 10 min pour refaire 2 erreurs de Recherc
+ he-Operationnelle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprend
+ re : Aucun support autorisé.\nEssayer : 60 min : 2 énoncés à modélise
+ r puis à résoudre à la main.\nTerminé quand : Test terminé dans le te
+ mps imparti. Noter les erreurs.\nFin de séance : noter chaque erreur dans
+  erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RO · Test blanc chronométré
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e524773bf3adc06a@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270112T190000
+DTEND:20270112T200000
+SUMMARY:AI/ML · Test blanc chronométré
+DESCRIPTION:AI/ML · 60 min\nDébut : 10 min pour refaire 2 erreurs de AI-M
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Aucun suppo
+ rt autorisé.\nEssayer : 30 min : une question de cours\, un déroulé OPE
+ N/CLOSED à la main\, un cas éthique.\nTerminé quand : Test terminé dan
+ s le temps imparti. Noter les erreurs.\nFin de séance : noter chaque erre
+ ur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI/ML · Test blanc chronométré
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccddc7ea7895f93b@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270113T190000
+DTEND:20270113T203000
+SUMMARY:Oracle · Test blanc chronométré
+DESCRIPTION:Oracle · 90 min\nDébut : 10 min pour refaire 2 erreurs de Ora
+ cle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Aucun sup
+ port autorisé.\nEssayer : 60 min : TP1 et TP2 de mémoire dans une VM\, p
+ uis 10 questions sur l'architecture.\nTerminé quand : Test terminé dans 
+ le temps imparti. Noter les erreurs.\nFin de séance : noter chaque erreur
+  dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Oracle · Test blanc chronométré
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:56c50606b4dc6405@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270114T190000
+DTEND:20270114T200000
+SUMMARY:NoSQL · Test blanc chronométré
+DESCRIPTION:NoSQL · 60 min\nDébut : 10 min pour refaire 2 erreurs de NoSQ
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Aucun suppo
+ rt autorisé.\nEssayer : 60 min : 10 requêtes sur shop_tp\, un pipeline d
+ 'agrégation\, un schéma de validation\, un index justifié.\nTerminé qu
+ and : Test terminé dans le temps imparti. Noter les erreurs.\nFin de séa
+ nce : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NoSQL · Test blanc chronométré
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3d83e7d4b52aa020@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270115T190000
+DTEND:20270115T200000
+SUMMARY:Analyse données · Test blanc chronométré
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : Aucun support autorisé.\nEssayer : 45 min : notebook sur un jeu
+  de données neuf : import\, nettoyage\, corrélation\, régression.\nTerm
+ iné quand : Test terminé dans le temps imparti. Noter les erreurs.\nFin 
+ de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · Test blanc chronométré
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:11fcafdf3192c686@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270116T100000
+DTEND:20270116T120000
+SUMMARY:Prog avancée · Test blanc chronométré
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : Aucun support autorisé.\nEssayer : 2 h : ajouter une foncti
+ onnalité à DentalSoft sans aide\, puis expliquer l'architecture à voix 
+ haute.\nTerminé quand : Test terminé dans le temps imparti. Noter les er
+ reurs.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · Test blanc chronométré
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e426a4a1772c8b5b@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270116T140000
+DTEND:20270116T144500
+SUMMARY:Virtualisation · Test blanc chronométré
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : Aucun support autorisé.\nEssayer : 45 min : tableau type 1 / type 
+ 2 de mémoire\, un TP refait\, relecture du rapport.\nTerminé quand : Tes
+ t terminé dans le temps imparti. Noter les erreurs.\nFin de séance : not
+ er chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · Test blanc chronométré
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:19cf9f147ee0bab6@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270117T100000
+DTEND:20270117T113000
+SUMMARY:.NET · Test blanc chronométré
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Aucun suppo
+ rt autorisé.\nEssayer : 90 min : CRUD ASP.NET MVC avec Entity Framework d
+ epuis zéro.\nTerminé quand : Test terminé dans le temps imparti. Noter 
+ les erreurs.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · Test blanc chronométré
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1bfdd1dc89ccd845@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270117T114500
+DTEND:20270117T123000
+SUMMARY:Admin Unix · Test blanc chronométré
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : A
+ ucun support autorisé.\nEssayer : 60 min dans une VM : GRUB\, systemd\, r
+ eset root\, sans notes.\nTerminé quand : Test terminé dans le temps impa
+ rti. Noter les erreurs.\nFin de séance : noter chaque erreur dans erreurs
+ .md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · Test blanc chronométré
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e197217e0aa11070@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270117T160000
+DTEND:20270117T170000
+SUMMARY:Android · Test blanc chronométré
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Aucun s
+ upport autorisé.\nEssayer : 60 min : mini-application depuis zéro.\nTerm
+ iné quand : Test terminé dans le temps imparti. Noter les erreurs.\nFin 
+ de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · Test blanc chronométré
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:963cb6f1096dd163@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270117T200000
+DTEND:20270117T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ca2c521aaddf72b5@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270118T190000
+DTEND:20270118T200000
+SUMMARY:RO · Correction du test + zone faible
+DESCRIPTION:RO · 60 min\nDébut : 10 min pour refaire 2 erreurs de Recherc
+ he-Operationnelle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprend
+ re : Ton test blanc.\nEssayer : Corriger\, trouver les 2 notions les plus 
+ faibles et faire 5 exercices dessus.\nTerminé quand : Tes 2 notions faibl
+ es sont réglées.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RO · Correction du test + zone faible
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b90626bd54f9e5dd@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270119T190000
+DTEND:20270119T200000
+SUMMARY:AI/ML · Correction du test + zone faible
+DESCRIPTION:AI/ML · 60 min\nDébut : 10 min pour refaire 2 erreurs de AI-M
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Ton test bl
+ anc.\nEssayer : Corriger\, trouver les 2 notions les plus faibles et faire
+  5 exercices dessus.\nTerminé quand : Tes 2 notions faibles sont réglée
+ s.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI/ML · Correction du test + zone faible
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9992b6a6dca27dbc@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270120T190000
+DTEND:20270120T203000
+SUMMARY:Oracle · Correction du test + zone faible
+DESCRIPTION:Oracle · 90 min\nDébut : 10 min pour refaire 2 erreurs de Ora
+ cle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Ton test 
+ blanc.\nEssayer : Corriger\, trouver les 2 notions les plus faibles et fai
+ re 5 exercices dessus.\nTerminé quand : Tes 2 notions faibles sont régl
+ ées.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Oracle · Correction du test + zone faible
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:207ed965ff15e4c8@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270121T190000
+DTEND:20270121T200000
+SUMMARY:NoSQL · Correction du test + zone faible
+DESCRIPTION:NoSQL · 60 min\nDébut : 10 min pour refaire 2 erreurs de NoSQ
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Ton test bl
+ anc.\nEssayer : Corriger\, trouver les 2 notions les plus faibles et faire
+  5 exercices dessus.\nTerminé quand : Tes 2 notions faibles sont réglée
+ s.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NoSQL · Correction du test + zone faible
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:aed7d71e91fc5581@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270122T190000
+DTEND:20270122T200000
+SUMMARY:Analyse données · Correction du test + zone faible
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : Ton test blanc.\nEssayer : Corriger\, trouver les 2 notions les 
+ plus faibles et faire 5 exercices dessus.\nTerminé quand : Tes 2 notions 
+ faibles sont réglées.\nFin de séance : noter chaque erreur dans erreurs
+ .md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · Correction du test + zone faible
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:70f54905cb10bf00@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270123T100000
+DTEND:20270123T120000
+SUMMARY:Prog avancée · Correction du test + zone faible
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : Ton test blanc.\nEssayer : Corriger\, trouver les 2 notions 
+ les plus faibles et faire 5 exercices dessus.\nTerminé quand : Tes 2 noti
+ ons faibles sont réglées.\nFin de séance : noter chaque erreur dans err
+ eurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · Correction du test + zone faible
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c07ce6b4b0096b00@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270123T140000
+DTEND:20270123T144500
+SUMMARY:Virtualisation · Correction du test + zone faible
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : Ton test blanc.\nEssayer : Corriger\, trouver les 2 notions les plu
+ s faibles et faire 5 exercices dessus.\nTerminé quand : Tes 2 notions fai
+ bles sont réglées.\nFin de séance : noter chaque erreur dans erreurs.md
+ .
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · Correction du test + zone faible
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7a6c4936ee999cf8@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270124T100000
+DTEND:20270124T113000
+SUMMARY:.NET · Correction du test + zone faible
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Ton test bl
+ anc.\nEssayer : Corriger\, trouver les 2 notions les plus faibles et faire
+  5 exercices dessus.\nTerminé quand : Tes 2 notions faibles sont réglée
+ s.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · Correction du test + zone faible
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:342dc91b0aa5c57f@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270124T114500
+DTEND:20270124T123000
+SUMMARY:Admin Unix · Correction du test + zone faible
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : T
+ on test blanc.\nEssayer : Corriger\, trouver les 2 notions les plus faible
+ s et faire 5 exercices dessus.\nTerminé quand : Tes 2 notions faibles son
+ t réglées.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · Correction du test + zone faible
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:03cb81898e1a0242@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270124T160000
+DTEND:20270124T170000
+SUMMARY:Android · Correction du test + zone faible
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Ton tes
+ t blanc.\nEssayer : Corriger\, trouver les 2 notions les plus faibles et f
+ aire 5 exercices dessus.\nTerminé quand : Tes 2 notions faibles sont rég
+ lées.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · Correction du test + zone faible
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2ac3a6e1325c07ec@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270124T200000
+DTEND:20270124T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4056fe72e2070f77@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270125T190000
+DTEND:20270125T200000
+SUMMARY:RO · Dernier passage : fiche + erreurs
+DESCRIPTION:RO · 60 min\nDébut : 10 min pour refaire 2 erreurs de Recherc
+ he-Operationnelle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprend
+ re : Fiche et erreurs.md uniquement.\nEssayer : Aucun nouveau contenu. Rel
+ ire\, puis refaire une erreur de chaque semaine.\nTerminé quand : Tu te s
+ ens capable de réciter la fiche.\nFin de séance : noter chaque erreur da
+ ns erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:RO · Dernier passage : fiche + erreurs
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:884a92166cf100fd@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270126T190000
+DTEND:20270126T200000
+SUMMARY:AI/ML · Dernier passage : fiche + erreurs
+DESCRIPTION:AI/ML · 60 min\nDébut : 10 min pour refaire 2 erreurs de AI-M
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fiche et er
+ reurs.md uniquement.\nEssayer : Aucun nouveau contenu. Relire\, puis refai
+ re une erreur de chaque semaine.\nTerminé quand : Tu te sens capable de r
+ éciter la fiche.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI/ML · Dernier passage : fiche + erreurs
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:58a3519363ac4fca@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270127T190000
+DTEND:20270127T203000
+SUMMARY:Oracle · Dernier passage : fiche + erreurs
+DESCRIPTION:Oracle · 90 min\nDébut : 10 min pour refaire 2 erreurs de Ora
+ cle/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fiche et 
+ erreurs.md uniquement.\nEssayer : Aucun nouveau contenu. Relire\, puis ref
+ aire une erreur de chaque semaine.\nTerminé quand : Tu te sens capable de
+  réciter la fiche.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Oracle · Dernier passage : fiche + erreurs
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d937ff49ad3d7d9d@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270128T190000
+DTEND:20270128T200000
+SUMMARY:NoSQL · Dernier passage : fiche + erreurs
+DESCRIPTION:NoSQL · 60 min\nDébut : 10 min pour refaire 2 erreurs de NoSQ
+ L/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fiche et er
+ reurs.md uniquement.\nEssayer : Aucun nouveau contenu. Relire\, puis refai
+ re une erreur de chaque semaine.\nTerminé quand : Tu te sens capable de r
+ éciter la fiche.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:NoSQL · Dernier passage : fiche + erreurs
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8d152061b57f53ae@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270129T190000
+DTEND:20270129T200000
+SUMMARY:Analyse données · Dernier passage : fiche + erreurs
+DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
+ urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
+ prendre : Fiche et erreurs.md uniquement.\nEssayer : Aucun nouveau contenu
+ . Relire\, puis refaire une erreur de chaque semaine.\nTerminé quand : Tu
+  te sens capable de réciter la fiche.\nFin de séance : noter chaque erre
+ ur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Analyse données · Dernier passage : fiche + erreurs
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:be64650385c2abe4@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270130T100000
+DTEND:20270130T120000
+SUMMARY:Prog avancée · Dernier passage : fiche + erreurs
+DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
+ s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
+ \nApprendre : Fiche et erreurs.md uniquement.\nEssayer : Aucun nouveau con
+ tenu. Relire\, puis refaire une erreur de chaque semaine.\nTerminé quand 
+ : Tu te sens capable de réciter la fiche.\nFin de séance : noter chaque 
+ erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Prog avancée · Dernier passage : fiche + erreurs
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b29dc1546eadccb0@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270130T140000
+DTEND:20270130T144500
+SUMMARY:Virtualisation · Dernier passage : fiche + erreurs
+DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
+ s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
+ ndre : Fiche et erreurs.md uniquement.\nEssayer : Aucun nouveau contenu. R
+ elire\, puis refaire une erreur de chaque semaine.\nTerminé quand : Tu te
+  sens capable de réciter la fiche.\nFin de séance : noter chaque erreur 
+ dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Virtualisation · Dernier passage : fiche + erreurs
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:969cef97b0c2036d@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270131T100000
+DTEND:20270131T113000
+SUMMARY:.NET · Dernier passage : fiche + erreurs
+DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fiche et er
+ reurs.md uniquement.\nEssayer : Aucun nouveau contenu. Relire\, puis refai
+ re une erreur de chaque semaine.\nTerminé quand : Tu te sens capable de r
+ éciter la fiche.\nFin de séance : noter chaque erreur dans erreurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:.NET · Dernier passage : fiche + erreurs
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f40825702afcb8b5@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270131T114500
+DTEND:20270131T123000
+SUMMARY:Admin Unix · Dernier passage : fiche + erreurs
+DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : F
+ iche et erreurs.md uniquement.\nEssayer : Aucun nouveau contenu. Relire\, 
+ puis refaire une erreur de chaque semaine.\nTerminé quand : Tu te sens ca
+ pable de réciter la fiche.\nFin de séance : noter chaque erreur dans err
+ eurs.md.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Admin Unix · Dernier passage : fiche + erreurs
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:771102e1aaa24e89@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270131T160000
+DTEND:20270131T170000
+SUMMARY:Android · Dernier passage : fiche + erreurs
+DESCRIPTION:Android · 60 min\nDébut : 10 min pour refaire 2 erreurs de An
+ droid/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fiche e
+ t erreurs.md uniquement.\nEssayer : Aucun nouveau contenu. Relire\, puis r
+ efaire une erreur de chaque semaine.\nTerminé quand : Tu te sens capable 
+ de réciter la fiche.\nFin de séance : noter chaque erreur dans erreurs.m
+ d.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Android · Dernier passage : fiche + erreurs
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:88e498a76b1fd83e@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20270131T200000
+DTEND:20270131T203000
+SUMMARY:Revue hebdo S7
+DESCRIPTION:Revue de la semaine · 30 min\nMettre à jour les erreurs.md. D
+ époser dans S7 les nouveaux cours\, TD et TP reçus sur WhatsApp\, puis g
+ it add -A\, commit\, push. Regarder les séances de la semaine suivante.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
