@@ -6,122 +6,6 @@ METHOD:PUBLISH
 X-WR-CALNAME:S7 Révisions
 X-WR-TIMEZONE:Africa/Casablanca
 BEGIN:VEVENT
-UID:0bf7ec51066fb883@s7-study
-DTSTAMP:20261106T120000Z
-DTSTART:20261106T190000
-DTEND:20261106T200000
-SUMMARY:Analyse données · Chap 0 · Fondamentaux et rappels de statistiqu
- es
-DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
- urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
- prendre : Analyse-Donnees/Cours/chap0_Intro (25 p.).\nEssayer : Prendre un
- e petite série de 10 valeurs : moyenne\, variance\, écart-type à la mai
- n\, puis avec numpy.\nTerminé quand : Tes calculs à la main et ceux de n
- umpy coïncident.\nFin de séance : noter chaque erreur dans erreurs.md.
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Analyse données · Chap 0 · Fondamentaux et rappels de statis
- tiques
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5428b72f69860842@s7-study
-DTSTAMP:20261106T120000Z
-DTSTART:20261107T093000
-DTEND:20261107T094500
-SUMMARY:Compléter examens.md
-DESCRIPTION:Renseigner _Planning/examens.md : coefficient et date de chaque
-  module\, et les dates de rendu des projets NoSQL\, Virtualisation et Prog
- rammation avancée. Les dates décident de la suite du planning.
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Compléter examens.md
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:514043c6bf8faccd@s7-study
-DTSTAMP:20261106T120000Z
-DTSTART:20261107T100000
-DTEND:20261107T120000
-SUMMARY:Prog avancée · DentalSoft · Cahier des charges
-DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
- s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
- \nApprendre : Programmation-Avancee/Projet/Dossier de Specification Dental
- Soft Guide.pdf\, chapitre 1.\nEssayer : Lister les fonctionnalités en 10 
- lignes et marquer celles qui existent déjà dans le code.\nTerminé quand
-  : Tu peux présenter le projet en 2 minutes sans notes.\nFin de séance :
-  noter chaque erreur dans erreurs.md.
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Prog avancée · DentalSoft · Cahier des charges
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c6ad76fcb27b572c@s7-study
-DTSTAMP:20261106T120000Z
-DTSTART:20261107T140000
-DTEND:20261107T144500
-SUMMARY:Virtualisation · Introduction : virtualisation et cloud
-DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
- s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
- ndre : Virtualisation/Cours/Introduction Virtualisation et Cloud (11 p.) :
-  5 caractéristiques\, 3 modèles de service\, 4 modèles de déploiement.
- \nEssayer : Tableau IaaS\, PaaS\, SaaS avec un exemple réel chacun.\nTerm
- iné quand : Tu cites les 5 caractéristiques\, 3 modèles de service et 4
-  modèles de déploiement de mémoire.\nFin de séance : noter chaque erre
- ur dans erreurs.md.
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Virtualisation · Introduction : virtualisation et cloud
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:708088c2df9eee36@s7-study
-DTSTAMP:20261106T120000Z
-DTSTART:20261108T100000
-DTEND:20261108T113000
-SUMMARY:.NET · C# · bases du langage
-DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
- t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : DotNet/Cour
- s/Cours_C# (42 p.) : variables\, conditions\, boucles\, tableaux\, listes\
- , méthodes.\nEssayer : Refaire les 5 exercices de DotNet/TD/TD_1.pdf en a
- pplication console.\nTerminé quand : Les 5 exercices tournent sans le cou
- rs ouvert.\nFin de séance : noter chaque erreur dans erreurs.md.
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:.NET · C# · bases du langage
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:6a029cd104b627e8@s7-study
-DTSTAMP:20261106T120000Z
-DTSTART:20261108T114500
-DTEND:20261108T123000
-SUMMARY:Admin Unix · Cours 01 · Histoire et choix de distribution
-DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
-  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : A
- dmin-Unix/Cours/Adm_UNIX_01_1 (75 p.)\, parcours rapide.\nEssayer : Pour 3
-  distributions\, noter philosophie\, cas d'usage\, gestionnaire de paquets
- .\nTerminé quand : Tu justifies le choix de RHEL pour un serveur.\nFin de
-  séance : noter chaque erreur dans erreurs.md.
-TRANSP:OPAQUE
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Admin Unix · Cours 01 · Histoire et choix de distribution
-TRIGGER:-PT10M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:14eef3efb83b60e4@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261108T160000
@@ -153,6 +37,22 @@ TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Revue hebdo S7
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de7fb8bdf58898d9@s7-study
+DTSTAMP:20261106T120000Z
+DTSTART:20261109T183000
+DTEND:20261109T184500
+SUMMARY:Compléter examens.md
+DESCRIPTION:Renseigner _Planning/examens.md : coefficient et date de chaque
+  module\, et les dates de rendu des projets NoSQL\, Virtualisation et Prog
+ rammation avancée. Les dates décident de la suite du planning.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Compléter examens.md
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -241,20 +141,19 @@ UID:165d5c9567d9506a@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261113T190000
 DTEND:20261113T200000
-SUMMARY:Analyse données · Chap 0 · Relation entre variables : covariance
-  et coefficient r
+SUMMARY:Analyse données · Chap 0 · Fondamentaux et rappels de statistiqu
+ es
 DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
  urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
- prendre : chap0_relation_entre_variables (56 p.)\, première partie.\nEssa
- yer : Refaire l'exercice d'application : moyennes\, écarts\, produits cro
- isés\, r\, interprétation\, puis vérifier avec pandas .corr().\nTermin
- é quand : Tu interprètes un r de 0\,3\, de 0\,9 et de -0\,8 sans hésite
- r.\nFin de séance : noter chaque erreur dans erreurs.md.
+ prendre : Analyse-Donnees/Cours/chap0_Intro (25 p.).\nEssayer : Prendre un
+ e petite série de 10 valeurs : moyenne\, variance\, écart-type à la mai
+ n\, puis avec numpy.\nTerminé quand : Tes calculs à la main et ceux de n
+ umpy coïncident.\nFin de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Analyse données · Chap 0 · Relation entre variables : covari
- ance et coefficient r
+DESCRIPTION:Analyse données · Chap 0 · Fondamentaux et rappels de statis
+ tiques
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -263,18 +162,18 @@ UID:dc188eaaf7b57e7f@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261114T100000
 DTEND:20261114T120000
-SUMMARY:Prog avancée · DentalSoft · Architecture et conception
+SUMMARY:Prog avancée · DentalSoft · Cahier des charges
 DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
  s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
- \nApprendre : Chapitre 2 du dossier + code de DentalSoftSwing (domain\, re
- pository\, service).\nEssayer : Dessiner le diagramme des couches : Patien
- t\, CrudRepo\, PatientRepo\, PatientServiceImpl\, controller.\nTerminé qu
- and : Tu suis un appel de l'interface jusqu'à la base en citant chaque cl
- asse.\nFin de séance : noter chaque erreur dans erreurs.md.
+ \nApprendre : Programmation-Avancee/Projet/Dossier de Specification Dental
+ Soft Guide.pdf\, chapitre 1.\nEssayer : Lister les fonctionnalités en 10 
+ lignes et marquer celles qui existent déjà dans le code.\nTerminé quand
+  : Tu peux présenter le projet en 2 minutes sans notes.\nFin de séance :
+  noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Prog avancée · DentalSoft · Architecture et conception
+DESCRIPTION:Prog avancée · DentalSoft · Cahier des charges
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -283,18 +182,19 @@ UID:f5525123a4c0fe31@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261114T140000
 DTEND:20261114T144500
-SUMMARY:Virtualisation · Projet · lire le sujet et choisir
+SUMMARY:Virtualisation · Introduction : virtualisation et cloud
 DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
  s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
- ndre : Virtualisation/Projet/sujets devoir projet 2026-2027 : rapport de 1
- 0 à 15 pages\, un TP\, une évaluation.\nEssayer : Choisir un sujet et é
- crire un plan de rapport. Vérifier la date de rendu.\nTerminé quand : Su
- jet choisi\, plan d'une page.\nFin de séance : noter chaque erreur dans e
- rreurs.md.
+ ndre : Virtualisation/Cours/Introduction Virtualisation et Cloud (11 p.) :
+  5 caractéristiques\, 3 modèles de service\, 4 modèles de déploiement.
+ \nEssayer : Tableau IaaS\, PaaS\, SaaS avec un exemple réel chacun.\nTerm
+ iné quand : Tu cites les 5 caractéristiques\, 3 modèles de service et 4
+  modèles de déploiement de mémoire.\nFin de séance : noter chaque erre
+ ur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Virtualisation · Projet · lire le sujet et choisir
+DESCRIPTION:Virtualisation · Introduction : virtualisation et cloud
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -303,17 +203,17 @@ UID:7412ab64fed7754f@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261115T100000
 DTEND:20261115T113000
-SUMMARY:.NET · C# · POO : classes\, constructeurs\, accesseurs
+SUMMARY:.NET · C# · bases du langage
 DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
- t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Cours_C# PO
- O (50 p.) : objets\, visibilité\, ToString\, set/get\, constructeurs\, st
- atic.\nEssayer : Refaire TP_2 (4 exercices) avec tes propres classes.\nTer
- miné quand : Tu écris une classe complète sans modèle.\nFin de séance
-  : noter chaque erreur dans erreurs.md.
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : DotNet/Cour
+ s/Cours_C# (42 p.) : variables\, conditions\, boucles\, tableaux\, listes\
+ , méthodes.\nEssayer : Refaire les 5 exercices de DotNet/TD/TD_1.pdf en a
+ pplication console.\nTerminé quand : Les 5 exercices tournent sans le cou
+ rs ouvert.\nFin de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:.NET · C# · POO : classes\, constructeurs\, accesseurs
+DESCRIPTION:.NET · C# · bases du langage
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -322,18 +222,17 @@ UID:9cc06dfe062b281f@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261115T114500
 DTEND:20261115T123000
-SUMMARY:Admin Unix · FHS · hiérarchie des fichiers + TP1-1
+SUMMARY:Admin Unix · Cours 01 · Histoire et choix de distribution
 DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
   Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : A
- dm_UNIX_01_2 (26 p.) et TP1-1-Hiérarchie des fichiers Linux.\nEssayer : R
- épondre au questionnaire du TP sans notes\, puis parcourir / avec ls et d
- ire le rôle de chaque dossier.\nTerminé quand : Tu cites le rôle de /de
- v\, /etc\, /var\, /proc\, /boot de mémoire.\nFin de séance : noter chaqu
- e erreur dans erreurs.md.
+ dmin-Unix/Cours/Adm_UNIX_01_1 (75 p.)\, parcours rapide.\nEssayer : Pour 3
+  distributions\, noter philosophie\, cas d'usage\, gestionnaire de paquets
+ .\nTerminé quand : Tu justifies le choix de RHEL pour un serveur.\nFin de
+  séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Admin Unix · FHS · hiérarchie des fichiers + TP1-1
+DESCRIPTION:Admin Unix · Cours 01 · Histoire et choix de distribution
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -456,18 +355,20 @@ UID:6873e342e5642f9e@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261120T190000
 DTEND:20261120T200000
-SUMMARY:Analyse données · Chap 0 · Régression linéaire simple
+SUMMARY:Analyse données · Chap 0 · Relation entre variables : covariance
+  et coefficient r
 DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
  urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
- prendre : Suite du chap0_relation : modèle linéaire\, hypothèses sur le
- s erreurs.\nEssayer : Sur Analyse-Donnees/TP/Donnees/iris.xlsx : ajuster u
- ne droite avec numpy puis sklearn\, tracer les résidus.\nTerminé quand :
-  Tu expliques ce que montrent les résidus.\nFin de séance : noter chaque
-  erreur dans erreurs.md.
+ prendre : chap0_relation_entre_variables (56 p.)\, première partie.\nEssa
+ yer : Refaire l'exercice d'application : moyennes\, écarts\, produits cro
+ isés\, r\, interprétation\, puis vérifier avec pandas .corr().\nTermin
+ é quand : Tu interprètes un r de 0\,3\, de 0\,9 et de -0\,8 sans hésite
+ r.\nFin de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Analyse données · Chap 0 · Régression linéaire simple
+DESCRIPTION:Analyse données · Chap 0 · Relation entre variables : covari
+ ance et coefficient r
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -476,18 +377,18 @@ UID:4caeda527f43e2c7@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261121T100000
 DTEND:20261121T120000
-SUMMARY:Prog avancée · Repository · JDBC MySQL et Oracle
+SUMMARY:Prog avancée · DentalSoft · Architecture et conception
 DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
  s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
- \nApprendre : Comparer repository/jdbcMySql/PatientRepoImpl et oracleImpl/
- PatientRepoImpl.\nEssayer : Écrire une nouvelle méthode findByNom dans l
- 'une des deux implémentations\, sans copier.\nTerminé quand : La méthod
- e fonctionne et tu sais quelles lignes changent entre MySQL et Oracle.\nFi
- n de séance : noter chaque erreur dans erreurs.md.
+ \nApprendre : Chapitre 2 du dossier + code de DentalSoftSwing (domain\, re
+ pository\, service).\nEssayer : Dessiner le diagramme des couches : Patien
+ t\, CrudRepo\, PatientRepo\, PatientServiceImpl\, controller.\nTerminé qu
+ and : Tu suis un appel de l'interface jusqu'à la base en citant chaque cl
+ asse.\nFin de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Prog avancée · Repository · JDBC MySQL et Oracle
+DESCRIPTION:Prog avancée · DentalSoft · Architecture et conception
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -496,17 +397,18 @@ UID:629858e2eddfa28c@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261121T140000
 DTEND:20261121T144500
-SUMMARY:Virtualisation · TP1 · VirtualBox
+SUMMARY:Virtualisation · Projet · lire le sujet et choisir
 DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
  s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
- ndre : Virtualisation/TP/TP1-Hyperviseur de type 2-VirtualBox.\nEssayer : 
- Créer une VM\, régler RAM\, disque\, réseau\, dossier partagé\, export
- er et cloner.\nTerminé quand : Tu exportes et clones une VM sans le PDF.\
- nFin de séance : noter chaque erreur dans erreurs.md.
+ ndre : Virtualisation/Projet/sujets devoir projet 2026-2027 : rapport de 1
+ 0 à 15 pages\, un TP\, une évaluation.\nEssayer : Choisir un sujet et é
+ crire un plan de rapport. Vérifier la date de rendu.\nTerminé quand : Su
+ jet choisi\, plan d'une page.\nFin de séance : noter chaque erreur dans e
+ rreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Virtualisation · TP1 · VirtualBox
+DESCRIPTION:Virtualisation · Projet · lire le sujet et choisir
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -515,17 +417,17 @@ UID:df01e8458854997e@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261122T100000
 DTEND:20261122T113000
-SUMMARY:.NET · C# · héritage
+SUMMARY:.NET · C# · POO : classes\, constructeurs\, accesseurs
 DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
- t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fin de Cour
- s_C# POO : héritage.\nEssayer : Créer Personne\, Etudiant\, Prof avec To
- String redéfini et une liste polymorphe.\nTerminé quand : Tu expliques p
- ourquoi chaque méthode se comporte ainsi.\nFin de séance : noter chaque 
- erreur dans erreurs.md.
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Cours_C# PO
+ O (50 p.) : objets\, visibilité\, ToString\, set/get\, constructeurs\, st
+ atic.\nEssayer : Refaire TP_2 (4 exercices) avec tes propres classes.\nTer
+ miné quand : Tu écris une classe complète sans modèle.\nFin de séance
+  : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:.NET · C# · héritage
+DESCRIPTION:.NET · C# · POO : classes\, constructeurs\, accesseurs
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -534,17 +436,18 @@ UID:4b7950e071c61b48@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261122T114500
 DTEND:20261122T123000
-SUMMARY:Admin Unix · TP1-0 · Installation RHEL 9 et commandes de base
+SUMMARY:Admin Unix · FHS · hiérarchie des fichiers + TP1-1
 DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
   Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : A
- dmin-Unix/TP/TP1-0-Installation+Commandes de base.\nEssayer : Recréer la 
- VM RHEL 9 avec le partitionnement du TP\, créer les utilisateurs\, prendr
- e un snapshot.\nTerminé quand : VM fonctionnelle avec snapshot propre.\nF
- in de séance : noter chaque erreur dans erreurs.md.
+ dm_UNIX_01_2 (26 p.) et TP1-1-Hiérarchie des fichiers Linux.\nEssayer : R
+ épondre au questionnaire du TP sans notes\, puis parcourir / avec ls et d
+ ire le rôle de chaque dossier.\nTerminé quand : Tu cites le rôle de /de
+ v\, /etc\, /var\, /proc\, /boot de mémoire.\nFin de séance : noter chaqu
+ e erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Admin Unix · TP1-0 · Installation RHEL 9 et commandes de base
+DESCRIPTION:Admin Unix · FHS · hiérarchie des fichiers + TP1-1
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -667,19 +570,18 @@ UID:d9bbc673788e985e@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261127T190000
 DTEND:20261127T200000
-SUMMARY:Analyse données · Chap 1 · Lecture et écriture de fichiers avec
-  pandas
+SUMMARY:Analyse données · Chap 0 · Régression linéaire simple
 DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
  urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
- prendre : Analyse-Donnees/Cours/chap1_fichiers (20 p.) puis TP1.\nEssayer 
- : Refaire TP1 dans un notebook vide : CSV\, Excel (deux feuilles)\, export
- .\nTerminé quand : Ton notebook tourne de bout en bout sans copier l'anci
- en tp1.ipynb.\nFin de séance : noter chaque erreur dans erreurs.md.
+ prendre : Suite du chap0_relation : modèle linéaire\, hypothèses sur le
+ s erreurs.\nEssayer : Sur Analyse-Donnees/TP/Donnees/iris.xlsx : ajuster u
+ ne droite avec numpy puis sklearn\, tracer les résidus.\nTerminé quand :
+  Tu expliques ce que montrent les résidus.\nFin de séance : noter chaque
+  erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Analyse données · Chap 1 · Lecture et écriture de fichiers 
- avec pandas
+DESCRIPTION:Analyse données · Chap 0 · Régression linéaire simple
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -688,17 +590,18 @@ UID:5f42ff4f8b3a7c84@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261128T100000
 DTEND:20261128T120000
-SUMMARY:Prog avancée · Service\, controller et ApplicationContext
+SUMMARY:Prog avancée · Repository · JDBC MySQL et Oracle
 DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
  s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
- \nApprendre : service/impl\, ui/controllers\, config/ApplicationContext.\n
- Essayer : Ajouter le cas d'usage rechercher un patient\, de la couche serv
- ice jusqu'au controller.\nTerminé quand : Le cas d'usage tourne avec des 
- données réelles.\nFin de séance : noter chaque erreur dans erreurs.md.
+ \nApprendre : Comparer repository/jdbcMySql/PatientRepoImpl et oracleImpl/
+ PatientRepoImpl.\nEssayer : Écrire une nouvelle méthode findByNom dans l
+ 'une des deux implémentations\, sans copier.\nTerminé quand : La méthod
+ e fonctionne et tu sais quelles lignes changent entre MySQL et Oracle.\nFi
+ n de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Prog avancée · Service\, controller et ApplicationContext
+DESCRIPTION:Prog avancée · Repository · JDBC MySQL et Oracle
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -707,17 +610,17 @@ UID:f9fcadaf104fba25@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261128T140000
 DTEND:20261128T144500
-SUMMARY:Virtualisation · TP2 · VMware Workstation et snapshots
+SUMMARY:Virtualisation · TP1 · VirtualBox
 DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
  s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
- ndre : TP2-Hyperviseur de type 2-VmwareWorkstation.\nEssayer : Créer une 
- VM\, prendre un snapshot\, supprimer un dossier\, restaurer.\nTerminé qua
- nd : Le dossier supprimé revient après restauration.\nFin de séance : n
- oter chaque erreur dans erreurs.md.
+ ndre : Virtualisation/TP/TP1-Hyperviseur de type 2-VirtualBox.\nEssayer : 
+ Créer une VM\, régler RAM\, disque\, réseau\, dossier partagé\, export
+ er et cloner.\nTerminé quand : Tu exportes et clones une VM sans le PDF.\
+ nFin de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Virtualisation · TP2 · VMware Workstation et snapshots
+DESCRIPTION:Virtualisation · TP1 · VirtualBox
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -726,17 +629,17 @@ UID:5324322ffdb2e634@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261129T100000
 DTEND:20261129T113000
-SUMMARY:.NET · ASP.NET MVC · Modèle\, Vue\, Contrôleur
+SUMMARY:.NET · C# · héritage
 DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
- t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Cours_aspne
- t (35 p.)\, Guide_Installation\, TP_3.\nEssayer : Refaire TP_3 : projet MV
- C\, HomeController\, Hello World.\nTerminé quand : Le projet tourne et tu
-  dis le rôle de M\, V et C.\nFin de séance : noter chaque erreur dans er
- reurs.md.
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Fin de Cour
+ s_C# POO : héritage.\nEssayer : Créer Personne\, Etudiant\, Prof avec To
+ String redéfini et une liste polymorphe.\nTerminé quand : Tu expliques p
+ ourquoi chaque méthode se comporte ainsi.\nFin de séance : noter chaque 
+ erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:.NET · ASP.NET MVC · Modèle\, Vue\, Contrôleur
+DESCRIPTION:.NET · C# · héritage
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -745,19 +648,17 @@ UID:85ed4011828674a0@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261129T114500
 DTEND:20261129T123000
-SUMMARY:Admin Unix · Cours 02 · Séquence de démarrage : BIOS\, UEFI\, G
- RUB2
+SUMMARY:Admin Unix · TP1-0 · Installation RHEL 9 et commandes de base
 DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
   Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : A
- dmin-Unix/Cours/Adm_UNIX_02 (78 p.).\nEssayer : Dessiner la séquence de d
- émarrage BIOS puis UEFI étape par étape.\nTerminé quand : Tu expliques
-  la différence entre les deux séquences sans notes.\nFin de séance : no
- ter chaque erreur dans erreurs.md.
+ dmin-Unix/TP/TP1-0-Installation+Commandes de base.\nEssayer : Recréer la 
+ VM RHEL 9 avec le partitionnement du TP\, créer les utilisateurs\, prendr
+ e un snapshot.\nTerminé quand : VM fonctionnelle avec snapshot propre.\nF
+ in de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Admin Unix · Cours 02 · Séquence de démarrage : BIOS\, UEFI
- \, GRUB2
+DESCRIPTION:Admin Unix · TP1-0 · Installation RHEL 9 et commandes de base
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -883,18 +784,19 @@ UID:317b8f5963c8d376@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261204T190000
 DTEND:20261204T200000
-SUMMARY:Analyse données · Chap 2 · Données manquantes et nettoyage
+SUMMARY:Analyse données · Chap 1 · Lecture et écriture de fichiers avec
+  pandas
 DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
  urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
- prendre : Analyse-Donnees/Cours/traitement_data (35 p.).\nEssayer : Refair
- e TP2 : normaliser Volume\, supprimer les doublons\, traiter les valeurs m
- anquantes.\nTerminé quand : Pour chaque méthode de traitement tu sais di
- re quand l'utiliser.\nFin de séance : noter chaque erreur dans erreurs.md
- .
+ prendre : Analyse-Donnees/Cours/chap1_fichiers (20 p.) puis TP1.\nEssayer 
+ : Refaire TP1 dans un notebook vide : CSV\, Excel (deux feuilles)\, export
+ .\nTerminé quand : Ton notebook tourne de bout en bout sans copier l'anci
+ en tp1.ipynb.\nFin de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Analyse données · Chap 2 · Données manquantes et nettoyage
+DESCRIPTION:Analyse données · Chap 1 · Lecture et écriture de fichiers 
+ avec pandas
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -903,17 +805,17 @@ UID:9c27da2f2cdc1463@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261205T100000
 DTEND:20261205T120000
-SUMMARY:Prog avancée · Interface Swing · vue et modèle de table
+SUMMARY:Prog avancée · Service\, controller et ApplicationContext
 DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
  s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
- \nApprendre : Cours Swing et contrôleurs existants.\nEssayer : Construire
-  une vue avec JTable alimentée par PatientController.\nTerminé quand : L
- a liste des patients s'affiche et se rafraîchit.\nFin de séance : noter 
- chaque erreur dans erreurs.md.
+ \nApprendre : service/impl\, ui/controllers\, config/ApplicationContext.\n
+ Essayer : Ajouter le cas d'usage rechercher un patient\, de la couche serv
+ ice jusqu'au controller.\nTerminé quand : Le cas d'usage tourne avec des 
+ données réelles.\nFin de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Prog avancée · Interface Swing · vue et modèle de table
+DESCRIPTION:Prog avancée · Service\, controller et ApplicationContext
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -922,18 +824,17 @@ UID:91844b41af2c4c01@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261205T140000
 DTEND:20261205T144500
-SUMMARY:Virtualisation · TP3 · Type 1 : ESXi / vSphere
+SUMMARY:Virtualisation · TP2 · VMware Workstation et snapshots
 DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
  s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
- ndre : TP3-Hyperviseur de type 1-Vmware Vsphere.\nEssayer : Configurer le 
- réseau de management (F2)\, accéder à l'interface web\, téléverser un
-  ISO\, créer une VM. Si pas de matériel : ESXi dans VMware Workstation.\
- nTerminé quand : Une VM tourne sur ESXi.\nFin de séance : noter chaque e
- rreur dans erreurs.md.
+ ndre : TP2-Hyperviseur de type 2-VmwareWorkstation.\nEssayer : Créer une 
+ VM\, prendre un snapshot\, supprimer un dossier\, restaurer.\nTerminé qua
+ nd : Le dossier supprimé revient après restauration.\nFin de séance : n
+ oter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Virtualisation · TP3 · Type 1 : ESXi / vSphere
+DESCRIPTION:Virtualisation · TP2 · VMware Workstation et snapshots
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -942,16 +843,17 @@ UID:9e4be2835a28666d@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261206T100000
 DTEND:20261206T113000
-SUMMARY:.NET · ASP.NET MVC · TP_4 : listes Etudiant et Prof
+SUMMARY:.NET · ASP.NET MVC · Modèle\, Vue\, Contrôleur
 DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
- t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : DotNet/TP/T
- P_4.pdf.\nEssayer : Refaire sans guide : modèles\, contrôleurs avec list
- e statique\, vues Index.cshtml.\nTerminé quand : Deux pages affichent leu
- rs listes.\nFin de séance : noter chaque erreur dans erreurs.md.
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Cours_aspne
+ t (35 p.)\, Guide_Installation\, TP_3.\nEssayer : Refaire TP_3 : projet MV
+ C\, HomeController\, Hello World.\nTerminé quand : Le projet tourne et tu
+  dis le rôle de M\, V et C.\nFin de séance : noter chaque erreur dans er
+ reurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:.NET · ASP.NET MVC · TP_4 : listes Etudiant et Prof
+DESCRIPTION:.NET · ASP.NET MVC · Modèle\, Vue\, Contrôleur
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -960,17 +862,19 @@ UID:c9022f6a03c443f9@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261206T114500
 DTEND:20261206T123000
-SUMMARY:Admin Unix · TP2 · GRUB2 : découverte et configuration
+SUMMARY:Admin Unix · Cours 02 · Séquence de démarrage : BIOS\, UEFI\, G
+ RUB2
 DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
-  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : T
- P2- Configuration Grub2\, parties 1 et 2.\nEssayer : Dans la VM : mode BIO
- S ou UEFI\, contenu de /boot\, noyaux installés\, /etc/default/grub\, /et
- c/grub.d.\nTerminé quand : Tu modifies GRUB_TIMEOUT et régénères la co
- nfiguration.\nFin de séance : noter chaque erreur dans erreurs.md.
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : A
+ dmin-Unix/Cours/Adm_UNIX_02 (78 p.).\nEssayer : Dessiner la séquence de d
+ émarrage BIOS puis UEFI étape par étape.\nTerminé quand : Tu expliques
+  la différence entre les deux séquences sans notes.\nFin de séance : no
+ ter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Admin Unix · TP2 · GRUB2 : découverte et configuration
+DESCRIPTION:Admin Unix · Cours 02 · Séquence de démarrage : BIOS\, UEFI
+ \, GRUB2
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1093,18 +997,18 @@ UID:affd3e55d710118a@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261211T190000
 DTEND:20261211T200000
-SUMMARY:Analyse données · TP2 sur un autre jeu de données
+SUMMARY:Analyse données · Chap 2 · Données manquantes et nettoyage
 DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
  urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
- prendre : Relire les méthodes d'imputation.\nEssayer : Injecter 10 % de v
- aleurs manquantes dans iris.xlsx\, imputer de trois façons\, comparer l'e
- ffet sur la moyenne et sur r.\nTerminé quand : Un petit tableau comparati
- f avec ta conclusion.\nFin de séance : noter chaque erreur dans erreurs.m
- d.
+ prendre : Analyse-Donnees/Cours/traitement_data (35 p.).\nEssayer : Refair
+ e TP2 : normaliser Volume\, supprimer les doublons\, traiter les valeurs m
+ anquantes.\nTerminé quand : Pour chaque méthode de traitement tu sais di
+ re quand l'utiliser.\nFin de séance : noter chaque erreur dans erreurs.md
+ .
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Analyse données · TP2 sur un autre jeu de données
+DESCRIPTION:Analyse données · Chap 2 · Données manquantes et nettoyage
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1113,17 +1017,17 @@ UID:d234151ed5f331f5@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261212T100000
 DTEND:20261212T120000
-SUMMARY:Prog avancée · Exceptions\, DTO et tests JUnit
+SUMMARY:Prog avancée · Interface Swing · vue et modèle de table
 DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
  s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
- \nApprendre : Les packages exceptions et dto du projet.\nEssayer : Écrire
-  un test JUnit du service avec un faux repository.\nTerminé quand : Le te
- st passe\, et échoue quand tu casses le service exprès.\nFin de séance 
- : noter chaque erreur dans erreurs.md.
+ \nApprendre : Cours Swing et contrôleurs existants.\nEssayer : Construire
+  une vue avec JTable alimentée par PatientController.\nTerminé quand : L
+ a liste des patients s'affiche et se rafraîchit.\nFin de séance : noter 
+ chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Prog avancée · Exceptions\, DTO et tests JUnit
+DESCRIPTION:Prog avancée · Interface Swing · vue et modèle de table
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1132,17 +1036,18 @@ UID:c27f14583a5db820@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261212T140000
 DTEND:20261212T144500
-SUMMARY:Virtualisation · Fiche : type 1 contre type 2
+SUMMARY:Virtualisation · TP3 · Type 1 : ESXi / vSphere
 DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
  s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
- ndre : Relire erreurs.md.\nEssayer : Tableau comparatif : isolation\, perf
- ormances\, cas d'usage\, produits rencontrés dans les 3 TP.\nTerminé qua
- nd : Tu recommandes un hyperviseur pour trois scénarios.\nFin de séance 
- : noter chaque erreur dans erreurs.md.
+ ndre : TP3-Hyperviseur de type 1-Vmware Vsphere.\nEssayer : Configurer le 
+ réseau de management (F2)\, accéder à l'interface web\, téléverser un
+  ISO\, créer une VM. Si pas de matériel : ESXi dans VMware Workstation.\
+ nTerminé quand : Une VM tourne sur ESXi.\nFin de séance : noter chaque e
+ rreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Virtualisation · Fiche : type 1 contre type 2
+DESCRIPTION:Virtualisation · TP3 · Type 1 : ESXi / vSphere
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1151,17 +1056,16 @@ UID:2898ba48e2bcec20@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261213T100000
 DTEND:20261213T113000
-SUMMARY:.NET · Entity Framework · Database First
+SUMMARY:.NET · ASP.NET MVC · TP_4 : listes Etudiant et Prof
 DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
- t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Cours_adone
- t_P1 (36 p.) : ORM\, architecture EF\, Database First.\nEssayer : Refaire 
- TP_5 : base BD_VENTE dans SQL Server\, table PRODUITS\, modèle généré\
- , CRUD.\nTerminé quand : Un CRUD sur PRODUITS fonctionne.\nFin de séance
-  : noter chaque erreur dans erreurs.md.
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : DotNet/TP/T
+ P_4.pdf.\nEssayer : Refaire sans guide : modèles\, contrôleurs avec list
+ e statique\, vues Index.cshtml.\nTerminé quand : Deux pages affichent leu
+ rs listes.\nFin de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:.NET · Entity Framework · Database First
+DESCRIPTION:.NET · ASP.NET MVC · TP_4 : listes Etudiant et Prof
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1170,19 +1074,17 @@ UID:f9e01e3d4ebd978d@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261213T114500
 DTEND:20261213T123000
-SUMMARY:Admin Unix · TP2 · Reset du mot de passe root + protection de GRU
- B2
+SUMMARY:Admin Unix · TP2 · GRUB2 : découverte et configuration
 DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
   Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : T
- P2\, parties 3 à 5\, avec ton compte rendu.\nEssayer : Revenir au snapsho
- t\, réinitialiser le mot de passe root\, puis protéger GRUB2 par mot de 
- passe. Uniquement dans la VM.\nTerminé quand : Tu fais les deux manipulat
- ions sans le PDF.\nFin de séance : noter chaque erreur dans erreurs.md.
+ P2- Configuration Grub2\, parties 1 et 2.\nEssayer : Dans la VM : mode BIO
+ S ou UEFI\, contenu de /boot\, noyaux installés\, /etc/default/grub\, /et
+ c/grub.d.\nTerminé quand : Tu modifies GRUB_TIMEOUT et régénères la co
+ nfiguration.\nFin de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Admin Unix · TP2 · Reset du mot de passe root + protection de
-  GRUB2
+DESCRIPTION:Admin Unix · TP2 · GRUB2 : découverte et configuration
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1300,18 +1202,18 @@ UID:a0eb9eff19cf9cc6@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261218T190000
 DTEND:20261218T200000
-SUMMARY:Analyse données · Fiche : pipeline pandas
+SUMMARY:Analyse données · TP2 sur un autre jeu de données
 DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
  urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
- prendre : Relire erreurs.md.\nEssayer : Remplir fiche.md : import\, inspec
- tion\, nettoyage\, statistiques\, corrélation\, régression\, avec la lig
- ne de code de chaque étape.\nTerminé quand : La fiche te permet de refai
- re une analyse sans internet.\nFin de séance : noter chaque erreur dans e
- rreurs.md.
+ prendre : Relire les méthodes d'imputation.\nEssayer : Injecter 10 % de v
+ aleurs manquantes dans iris.xlsx\, imputer de trois façons\, comparer l'e
+ ffet sur la moyenne et sur r.\nTerminé quand : Un petit tableau comparati
+ f avec ta conclusion.\nFin de séance : noter chaque erreur dans erreurs.m
+ d.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Analyse données · Fiche : pipeline pandas
+DESCRIPTION:Analyse données · TP2 sur un autre jeu de données
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1320,17 +1222,17 @@ UID:757c2f720f8886df@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261219T100000
 DTEND:20261219T120000
-SUMMARY:Prog avancée · Nouvelle entité de bout en bout
+SUMMARY:Prog avancée · Exceptions\, DTO et tests JUnit
 DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
  s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
- \nApprendre : Ton architecture actuelle.\nEssayer : Ajouter RendezVous (do
- main\, repo\, service\, controller\, vue) en gardant la même structure.\n
- Terminé quand : La nouvelle entité marche comme Patient.\nFin de séance
-  : noter chaque erreur dans erreurs.md.
+ \nApprendre : Les packages exceptions et dto du projet.\nEssayer : Écrire
+  un test JUnit du service avec un faux repository.\nTerminé quand : Le te
+ st passe\, et échoue quand tu casses le service exprès.\nFin de séance 
+ : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Prog avancée · Nouvelle entité de bout en bout
+DESCRIPTION:Prog avancée · Exceptions\, DTO et tests JUnit
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1339,16 +1241,17 @@ UID:2a0644a82a055366@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261219T140000
 DTEND:20261219T144500
-SUMMARY:Virtualisation · Projet · plan et environnement du TP
+SUMMARY:Virtualisation · Fiche : type 1 contre type 2
 DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
  s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
- ndre : Ton plan de rapport.\nEssayer : Monter l'environnement du TP du pro
- jet.\nTerminé quand : L'environnement est prêt à servir.\nFin de séanc
- e : noter chaque erreur dans erreurs.md.
+ ndre : Relire erreurs.md.\nEssayer : Tableau comparatif : isolation\, perf
+ ormances\, cas d'usage\, produits rencontrés dans les 3 TP.\nTerminé qua
+ nd : Tu recommandes un hyperviseur pour trois scénarios.\nFin de séance 
+ : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Virtualisation · Projet · plan et environnement du TP
+DESCRIPTION:Virtualisation · Fiche : type 1 contre type 2
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1357,16 +1260,17 @@ UID:89b3745c1222257c@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261220T100000
 DTEND:20261220T113000
-SUMMARY:.NET · Cours_aspnet_P2 · reproduire chaque exemple
+SUMMARY:.NET · Entity Framework · Database First
 DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
- t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : DotNet/Cour
- s/Cours_aspnet_P2 (51 p.).\nEssayer : Reproduire chaque exemple dans un pr
- ojet neuf.\nTerminé quand : Chaque exemple tourne.\nFin de séance : note
- r chaque erreur dans erreurs.md.
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Cours_adone
+ t_P1 (36 p.) : ORM\, architecture EF\, Database First.\nEssayer : Refaire 
+ TP_5 : base BD_VENTE dans SQL Server\, table PRODUITS\, modèle généré\
+ , CRUD.\nTerminé quand : Un CRUD sur PRODUITS fonctionne.\nFin de séance
+  : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:.NET · Cours_aspnet_P2 · reproduire chaque exemple
+DESCRIPTION:.NET · Entity Framework · Database First
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1375,17 +1279,19 @@ UID:088c475d1d604e84@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261220T114500
 DTEND:20261220T123000
-SUMMARY:Admin Unix · TP3 · systemd : cibles\, services\, journalctl
+SUMMARY:Admin Unix · TP2 · Reset du mot de passe root + protection de GRU
+ B2
 DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
   Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : T
- P3- Configuration cibles-services-journalctl.\nEssayer : systemd-analyze\,
-  blame\, critical-chain\, cible par défaut\, systemctl\, journalctl.\nTer
- miné quand : Tu trouves le service le plus lent au démarrage.\nFin de s
- éance : noter chaque erreur dans erreurs.md.
+ P2\, parties 3 à 5\, avec ton compte rendu.\nEssayer : Revenir au snapsho
+ t\, réinitialiser le mot de passe root\, puis protéger GRUB2 par mot de 
+ passe. Uniquement dans la VM.\nTerminé quand : Tu fais les deux manipulat
+ ions sans le PDF.\nFin de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Admin Unix · TP3 · systemd : cibles\, services\, journalctl
+DESCRIPTION:Admin Unix · TP2 · Reset du mot de passe root + protection de
+  GRUB2
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1505,17 +1411,18 @@ UID:23ab5e1b239fb446@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261225T190000
 DTEND:20261225T200000
-SUMMARY:Analyse données · Mini-analyse de bout en bout
+SUMMARY:Analyse données · Fiche : pipeline pandas
 DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
  urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
- prendre : Choisir un jeu de données public.\nEssayer : Importer\, nettoye
- r\, décrire\, calculer r\, ajuster une régression\, conclure en 5 lignes
- .\nTerminé quand : Notebook propre\, conclusion écrite.\nFin de séance 
- : noter chaque erreur dans erreurs.md.
+ prendre : Relire erreurs.md.\nEssayer : Remplir fiche.md : import\, inspec
+ tion\, nettoyage\, statistiques\, corrélation\, régression\, avec la lig
+ ne de code de chaque étape.\nTerminé quand : La fiche te permet de refai
+ re une analyse sans internet.\nFin de séance : noter chaque erreur dans e
+ rreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Analyse données · Mini-analyse de bout en bout
+DESCRIPTION:Analyse données · Fiche : pipeline pandas
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1524,16 +1431,17 @@ UID:4ec64571d291b761@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261226T100000
 DTEND:20261226T120000
-SUMMARY:Prog avancée · Charte graphique et maquettes → écran réel
+SUMMARY:Prog avancée · Nouvelle entité de bout en bout
 DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
  s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
- \nApprendre : Chapitre 3 du dossier de spécification.\nEssayer : Reprodui
- re une maquette en Swing.\nTerminé quand : L'écran ressemble à la maque
- tte.\nFin de séance : noter chaque erreur dans erreurs.md.
+ \nApprendre : Ton architecture actuelle.\nEssayer : Ajouter RendezVous (do
+ main\, repo\, service\, controller\, vue) en gardant la même structure.\n
+ Terminé quand : La nouvelle entité marche comme Patient.\nFin de séance
+  : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Prog avancée · Charte graphique et maquettes → écran réel
+DESCRIPTION:Prog avancée · Nouvelle entité de bout en bout
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1542,17 +1450,16 @@ UID:e667fa81d29de74f@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261226T140000
 DTEND:20261226T144500
-SUMMARY:Virtualisation · Projet · réaliser le TP
+SUMMARY:Virtualisation · Projet · plan et environnement du TP
 DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
  s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
- ndre : Ton plan et l'environnement.\nEssayer : Faire le TP et prendre tout
- es les captures d'écran au fil de l'eau.\nTerminé quand : Le TP marche e
- t chaque étape est capturée.\nFin de séance : noter chaque erreur dans 
- erreurs.md.
+ ndre : Ton plan de rapport.\nEssayer : Monter l'environnement du TP du pro
+ jet.\nTerminé quand : L'environnement est prêt à servir.\nFin de séanc
+ e : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Virtualisation · Projet · réaliser le TP
+DESCRIPTION:Virtualisation · Projet · plan et environnement du TP
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1561,16 +1468,16 @@ UID:4fcd41bf88c764e2@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261227T100000
 DTEND:20261227T113000
-SUMMARY:.NET · Mini-projet CRUD complet
+SUMMARY:.NET · Cours_aspnet_P2 · reproduire chaque exemple
 DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
- t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Ton TP_5.\n
- Essayer : Gestion clients et commandes avec EF\, de zéro.\nTerminé quand
-  : CRUD sur deux tables liées.\nFin de séance : noter chaque erreur dans
-  erreurs.md.
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : DotNet/Cour
+ s/Cours_aspnet_P2 (51 p.).\nEssayer : Reproduire chaque exemple dans un pr
+ ojet neuf.\nTerminé quand : Chaque exemple tourne.\nFin de séance : note
+ r chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:.NET · Mini-projet CRUD complet
+DESCRIPTION:.NET · Cours_aspnet_P2 · reproduire chaque exemple
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1579,16 +1486,17 @@ UID:17cd52165d37a9c4@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20261227T114500
 DTEND:20261227T123000
-SUMMARY:Admin Unix · Fiche : commandes et fichiers clés
+SUMMARY:Admin Unix · TP3 · systemd : cibles\, services\, journalctl
 DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
-  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : R
- elire erreurs.md.\nEssayer : Remplir fiche.md : systemctl\, journalctl\, g
- rub2-mkconfig\, chemins importants.\nTerminé quand : La fiche tient sur u
- ne page.\nFin de séance : noter chaque erreur dans erreurs.md.
+  Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : T
+ P3- Configuration cibles-services-journalctl.\nEssayer : systemd-analyze\,
+  blame\, critical-chain\, cible par défaut\, systemctl\, journalctl.\nTer
+ miné quand : Tu trouves le service le plus lent au démarrage.\nFin de s
+ éance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Admin Unix · Fiche : commandes et fichiers clés
+DESCRIPTION:Admin Unix · TP3 · systemd : cibles\, services\, journalctl
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1710,16 +1618,17 @@ UID:bb2569e28ff44197@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20270101T190000
 DTEND:20270101T200000
-SUMMARY:Analyse données · Rattrapage · nouveaux chapitres
+SUMMARY:Analyse données · Mini-analyse de bout en bout
 DESCRIPTION:Analyse données · 60 min\nDébut : 10 min pour refaire 2 erre
  urs de Analyse-Donnees/Revisions/erreurs.md datant d'au moins 3 jours.\nAp
- prendre : Lire les chapitres reçus.\nEssayer : Reproduire chaque exemple 
- dans un notebook.\nTerminé quand : Chaque chapitre a une entrée dans la 
- fiche.\nFin de séance : noter chaque erreur dans erreurs.md.
+ prendre : Choisir un jeu de données public.\nEssayer : Importer\, nettoye
+ r\, décrire\, calculer r\, ajuster une régression\, conclure en 5 lignes
+ .\nTerminé quand : Notebook propre\, conclusion écrite.\nFin de séance 
+ : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Analyse données · Rattrapage · nouveaux chapitres
+DESCRIPTION:Analyse données · Mini-analyse de bout en bout
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1728,17 +1637,16 @@ UID:f4b067783ee7ecde@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20270102T100000
 DTEND:20270102T120000
-SUMMARY:Prog avancée · Revue de sprint · démo et dette technique
+SUMMARY:Prog avancée · Charte graphique et maquettes → écran réel
 DESCRIPTION:Prog avancée · 120 min\nDébut : 10 min pour refaire 2 erreur
  s de Programmation-Avancee/Revisions/erreurs.md datant d'au moins 3 jours.
- \nApprendre : Chapitre 4 du dossier : organisation agile.\nEssayer : Faire
-  une démo de 5 minutes et lister 5 points de dette technique.\nTerminé q
- uand : Une démo sans bug sur le chemin principal.\nFin de séance : noter
-  chaque erreur dans erreurs.md.
+ \nApprendre : Chapitre 3 du dossier de spécification.\nEssayer : Reprodui
+ re une maquette en Swing.\nTerminé quand : L'écran ressemble à la maque
+ tte.\nFin de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Prog avancée · Revue de sprint · démo et dette technique
+DESCRIPTION:Prog avancée · Charte graphique et maquettes → écran réel
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1747,16 +1655,17 @@ UID:252d80bdc57df03a@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20270102T140000
 DTEND:20270102T144500
-SUMMARY:Virtualisation · Projet · rédiger le rapport
+SUMMARY:Virtualisation · Projet · réaliser le TP
 DESCRIPTION:Virtualisation · 45 min\nDébut : 10 min pour refaire 2 erreur
  s de Virtualisation/Revisions/erreurs.md datant d'au moins 3 jours.\nAppre
- ndre : Le plan de rapport.\nEssayer : Rédiger 3 à 4 pages de rapport ave
- c les captures.\nTerminé quand : Brouillon de plusieurs pages relu une fo
- is.\nFin de séance : noter chaque erreur dans erreurs.md.
+ ndre : Ton plan et l'environnement.\nEssayer : Faire le TP et prendre tout
+ es les captures d'écran au fil de l'eau.\nTerminé quand : Le TP marche e
+ t chaque étape est capturée.\nFin de séance : noter chaque erreur dans 
+ erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Virtualisation · Projet · rédiger le rapport
+DESCRIPTION:Virtualisation · Projet · réaliser le TP
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1765,16 +1674,16 @@ UID:adb49e207c388c28@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20270103T100000
 DTEND:20270103T113000
-SUMMARY:.NET · Database First\, Code First\, Model First
+SUMMARY:.NET · Mini-projet CRUD complet
 DESCRIPTION:.NET · 90 min\nDébut : 10 min pour refaire 2 erreurs de DotNe
- t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Comparaison
-  dans Cours_adonet_P1.\nEssayer : Reconstruire le même modèle en Code Fi
- rst.\nTerminé quand : Tableau comparatif et un exemple en Code First.\nFi
- n de séance : noter chaque erreur dans erreurs.md.
+ t/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : Ton TP_5.\n
+ Essayer : Gestion clients et commandes avec EF\, de zéro.\nTerminé quand
+  : CRUD sur deux tables liées.\nFin de séance : noter chaque erreur dans
+  erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:.NET · Database First\, Code First\, Model First
+DESCRIPTION:.NET · Mini-projet CRUD complet
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
@@ -1783,16 +1692,16 @@ UID:6b7df43f63318150@s7-study
 DTSTAMP:20261106T120000Z
 DTSTART:20270103T114500
 DTEND:20270103T123000
-SUMMARY:Admin Unix · Scénario de panne
+SUMMARY:Admin Unix · Fiche : commandes et fichiers clés
 DESCRIPTION:Admin Unix · 45 min\nDébut : 10 min pour refaire 2 erreurs de
   Admin-Unix/Revisions/erreurs.md datant d'au moins 3 jours.\nApprendre : R
- ien de nouveau.\nEssayer : Casser exprès GRUB ou un service\, puis répar
- er sans aide.\nTerminé quand : Réparation réussie et documentée en 5 l
- ignes.\nFin de séance : noter chaque erreur dans erreurs.md.
+ elire erreurs.md.\nEssayer : Remplir fiche.md : systemctl\, journalctl\, g
+ rub2-mkconfig\, chemins importants.\nTerminé quand : La fiche tient sur u
+ ne page.\nFin de séance : noter chaque erreur dans erreurs.md.
 TRANSP:OPAQUE
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:Admin Unix · Scénario de panne
+DESCRIPTION:Admin Unix · Fiche : commandes et fichiers clés
 TRIGGER:-PT10M
 END:VALARM
 END:VEVENT
